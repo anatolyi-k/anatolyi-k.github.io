@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Hotel Directory</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="css/slider.css" rel="stylesheet" type="text/css" />
+    <style>
+        .div1 a.current {color:#ccc;}
+        .div1 a, .div2 a {color:#34739c;}
+        .div2 p {padding:20px 0;}
+    </style>
+
+
 </head>
 <header id="header">
     <div class="container-full-hd header-container">
@@ -75,8 +83,8 @@
                         <li class="left-block__icon subsub food"><a href="food-beverage.html" class="title">Food and Beverage</a><span class="arr"></span>
                             <ul class="smenu">
                                 <li><a href="hospitality-supplies.html">Hospitality Supplies & Services</a></li>
-                                <li><a href="#">Equipment & Operating Supplies</a></li>
-                                <li><a href="#">Apparel and Accessories</a></li>
+                                <li><a href="uniform.html">Uniform</a></li>
+                                <li><a href="chefs-wear.html">Chefs Wear</a></li>
                                 <li><a href="#">Cleaning, Hygiene and Sanitation</a></li>
                                 <li><a href="#">Communication & Technology</a></li>
                                 <li><a href="#">Computers & IT</a></li>
@@ -214,8 +222,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class="left-block__icon main news"><a href="#">Industry News</a></li>
-                <li class="left-block__icon main events"><a href="#">Events</a></li>
+                <li class="left-block__icon main news "><a href="industry-news.html ">Industry News</a></li>
+                <li class="left-block__icon main events "><a href="events-calendar.html">Events</a></li>
                 <li class="left-block__icon main careers"><a href="#">Careers</a></li>
                 <li class="left-block__icon main cources"><a href="#">Courses</a></li>
                 <li class="left-block__icon main awards"><a href="#">Awards</a></li>
@@ -241,7 +249,7 @@
             <div class="index__bl__title">Food & Beverage</div>
             <div class="index__bl__desc">The World's Largest Directory for Hotels, Motels & Resorts Worldwide</div>
         </div>
-        <div class="fl-block top-videos-mob mob-padding-top-0 mob-col-pad-bot-20 padd-top-40">
+        <div class="fl-block lists top-videos-mob mob-padding-top-0 mob-col-pad-bot-20 padd-top-40">
             <div class="fourd-col">
                 <a href="#">
                     <div class="category-wr">
@@ -294,8 +302,6 @@
                     </div>
                 </a>
             </div>
-        </div>
-        <div class="fl-block top-videos-mob mob-padding-top-0 mob-col-pad-bot-20 padd-top-40">
             <div class="fourd-col">
                 <a href="#">
                     <div class="category-wr">
@@ -438,11 +444,12 @@
         </div>
     </div>
 
-    <button class="back-to-top hidden"></button>
+    <button onclick="topFunction()" id="totop" class="back-to-top"></button>
 
 </footer>
 
-<script src="js/main.js"></script>
+<script defer src="js/main.js"></script>
+<script defer src="js/slider.js" type="text/javascript"></script>
 
 </body>
 </html>

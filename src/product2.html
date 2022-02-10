@@ -1,0 +1,228 @@
+@@include('_head.html')
+@@include('_header.html', { "page" : "directories" })
+
+<div class="content">
+    <section class="sec-prod mob-padding-top-0 mob-col-pad-bot-20 padd-top-90">
+        <div class="sec-prod__gallery">
+            <div class="prod__slide" style="display: block;">
+              <img src="images/pages/product-1.png">
+            </div>
+            <div class="prod__slide">
+              <img src="images/pages/product-2.png">
+            </div>
+            <div class="prod__slide">
+              <img src="images/pages/product-3.png">
+            </div>
+            <div class="thumbs">
+              <div class="column">
+                <img class="thumb cursor active" src="images/pages/product-1.png" style="width:100%" onclick="currentSlide(1)">
+              </div>
+              <div class="column">
+                <img class="thumb cursor" src="images/pages/product-2.png" style="width:100%" onclick="currentSlide(2)">
+              </div>
+              <div class="column">
+                <img class="thumb cursor" src="images/pages/product-3.png" style="width:100%" onclick="currentSlide(3)">
+              </div>
+            </div>
+        </div>
+        <div class="sec-prod__info">
+            <div class="prod__name">Joe Blow Hat</div>
+            <div class="prod__brand">
+                <img src="images/pages/brand.png">
+            </div>
+            <div class="prod__review__bl">
+                <div class="stars">
+                    <label class="rating-label">
+                        <input
+                          class="rating"
+                          max="5"
+                          oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)"
+                          step="1"
+                          style="--value:4"
+                          type="range"
+                          value="4">
+                      </label>
+                    <div class="numbers">4,00</div>
+                </div>
+                <div class="reviews">507 reviews</div>
+                <div class="orders">1268 orders</div>
+            </div>
+            <div class="prod__price">
+                <div class="new">$32</div>
+                <div class="old">$62</div>
+            </div>
+            <div class="prod__value">
+                <div class="size">
+                    <span>size</span>
+                    <div class="prod__value__size">
+                        <select class="style">
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="color">
+                    <span>color</span>
+                    <div class="prod__value__color">
+                        <div class="circle black"></div>
+                        <div class="circle white"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod__col">
+                <div class="v-counter">
+                    <input type="button" class="minusBtn" value="-" />
+                    <input type="text" size="25" value="1" class="count" />
+                    <input type="button" class="plusBtn" value="+" />
+                </div>
+            </div>
+            <div class="prod__btns">
+                <div class="prod__btn__add">Add to cart</div>
+                <div class="prod__btn__add now">Buy now</div>
+                <div class="prod__like"></div>
+            </div>
+            <div class="prod__delivery">
+                <ul>
+                    <li>60-Day Buyer Protection</li>
+                    <li>Free Return</li>
+                </ul>
+            </div>
+            </div>
+    </section>
+
+    <section class="sec1 description">
+        <div class="desc_hotel_info">
+            <img src="images/pages/product-text.png" class="left">
+            <h2>Hotels Worldwide Directory : Holiday Inn Hotel</h2>
+            <p><strong>Location:</strong> Unpaid</p>
+            <p><strong>Categories:</strong> Furniture, Fixtures & Equipment</p>
+            <p><strong>Start Date:</strong> 9081 Santa Monica Boulevard West Hollywood, CA 90069 United States</p>
+        </div>
+        <div class="desc_hotel_overview">
+            <h3>Produkt owervew</h3>
+            <p><strong>Material:</strong> Silk</p>
+            <p><strong>Colour:</strong> White, Grey, Midnight Black, Red Passion, Sky Blue, Aqua</p>
+            <p><strong>Size:</strong> Available in a variety of sizes: Twin/ Queen/ King/ Single /Double /King/Superking/Customisable<br/>Single Flat Sheet: 170cmx230cm<br/>Queen Flat bed sheet: 245cmx250cm<br/>King Flat bed sheet: 245cmx270cm<br/>Fitted sheet available for custom order</p>
+            <p><strong>Weight:</strong> 400grams</p>
+            <p><strong>Additional Information:</strong> We use the highest grade (6A) long -fiber mulberry silk, with athickness of 19-30 momme and enforce the strictest quality guidelines, including non-toxic dyes. We are specially-commissioned and made to our exacting standards, developed and re-fined over ten years to provide the ultimate combination of shine, thickness, softness and durability. Other colours are availbale upon request.</p>
+            <p><strong>Pricing per Unit:</strong> 1 - 50 Pieces $9.24</p>
+            <p><strong>Terms of Trade:</strong>Ex Works</p>
+            <p><strong>MOQ (Minimum Order Quantity):</strong> 50 Pieces</p>
+            <p><strong>Discounts availble on Bulk Orders:</strong> YES</p>
+            <p><strong>Main Export Markets:</strong> Asia, Europe</p>
+            <p><strong>Shippin Options:</strong> Air, Sea, Express</p>
+            <p><strong>Main Port of Shipping:</strong> Guang Dong</p>
+            <p><strong>Samples Avaliable on Request:</strong> YES</p>
+            <p><strong>Ready to Ship:</strong> YES</p>
+            <p><strong>Can be personalised/branded:</strong> YES</p>
+            <p><strong>Made to Order:</strong> NO</p>
+            <p><strong>Custom Order/OEM:</strong> NO</p>
+            <p><strong>Warranty:</strong> YES</p>
+            <p><strong>Product Brochure Avaliable:</strong> YES</p>
+        </div>
+    </section>
+
+    <section class="sec2 recomm">
+        <div class="prod__recomm__title">Recommended For You</div>
+
+        <div class="fl-block lists rows5 mob-padding-top-0 mob-col-pad-bot-20">
+            <div class="fourd-col">
+                <a href="#">
+                    <div class="category-wr">
+                        <img src="images/pages/pr-recomm-1.png" alt="">
+                    </div>
+                    <div class="index__bl3__buy__block">
+                        <div class="index__bl3__price">
+                            <div class="new">$32</div>
+                            <div class="old">$62</div>
+                        </div>
+                        <div class="index__bl3__like"></div>
+                    </div>
+                    <div class="text-under__name">
+                        Chef Uniforms
+                    </div>
+                </a>
+            </div>
+            <div class="fourd-col">
+                <a href="#">
+                    <div class="category-wr">
+                        <img src="images/pages/pr-recomm-2.png" alt="">
+                    </div>
+                    <div class="index__bl3__buy__block">
+                        <div class="index__bl3__price">
+                            <div class="new">$45</div>
+                            <div class="old">$60</div>
+                        </div>
+                        <div class="index__bl3__like"></div>
+                    </div>
+                    <div class="text-under__name">
+                        Chef Uniforms
+                    </div>
+                </a>
+            </div>
+            <div class="fourd-col">
+                <a href="#">
+                    <div class="category-wr">
+                        <img src="images/pages/pr-recomm-3.png" alt="">
+                    </div>
+                    <div class="index__bl3__buy__block">
+                        <div class="index__bl3__price">
+                            <div class="new">$35</div>
+                            <div class="old">$90</div>
+                        </div>
+                        <div class="index__bl3__like"></div>
+                    </div>
+                    <div class="text-under__name">
+                        Chef Uniforms
+                    </div>
+                </a>
+            </div>
+            <div class="fourd-col">
+                <a href="#">
+                    <div class="category-wr">
+                        <img src="images/pages/pr-recomm-4.png" alt="">
+                    </div>
+                    <div class="index__bl3__buy__block">
+                        <div class="index__bl3__price">
+                            <div class="new">$30</div>
+                            <div class="old">$45</div>
+                        </div>
+                        <div class="index__bl3__like"></div>
+                    </div>
+                    <div class="text-under__name">
+                        Chef Uniforms
+                    </div>
+                </a>
+            </div>
+            <div class="fourd-col">
+                <a href="#">
+                    <div class="category-wr">
+                        <img src="images/pages/pr-recomm-5.png" alt="">
+                    </div>
+                    <div class="index__bl3__buy__block">
+                        <div class="index__bl3__price">
+                            <div class="new">$55</div>
+                            <div class="old">$70</div>
+                        </div>
+                        <div class="index__bl3__like"></div>
+                    </div>
+                    <div class="text-under__name">
+                        Chef Uniforms
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="banner-wr">
+            <div class="banner">
+                <div class="banner__img">
+                    Banner
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+@@include('_footer.html')

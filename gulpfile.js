@@ -55,6 +55,10 @@ function imgstart() {
   return src('./src/images/start/*')
     .pipe(dest('./build/images/start'));
 }
+function imgpages() {
+  return src('./src/images/pages/*')
+    .pipe(dest('./build/images/pages'));
+}
 
 // Html
 /*function html() {
@@ -92,4 +96,4 @@ function fileinc(){
 }
 
 //exports.watch = parallel(watchFiles, browserSync);
-exports.default = series(clear, sasscss, copyfonts, jsdr, imghome, imgstart, fileinc, browserSync);
+exports.default = series(clear, sasscss, copyfonts, jsdr, imghome, imgstart, imgpages, fileinc, browserSync);

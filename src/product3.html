@@ -1,0 +1,358 @@
+@@include('_head.html')
+@@include('_header.html', { "page" : "directories" })
+
+<div class="content">
+    <section class="sec-prod mob-padding-top-0 mob-col-pad-bot-20 padd-top-90">
+        <div class="sec-prod__gallery">
+            <div class="prod__slide" style="display: block;">
+              <img src="images/pages/product-1.png">
+            </div>
+            <div class="prod__slide">
+              <img src="images/pages/product-2.png">
+            </div>
+            <div class="prod__slide">
+              <img src="images/pages/product-3.png">
+            </div>
+            <div class="thumbs">
+              <div class="column">
+                <img class="thumb cursor active" src="images/pages/product-1.png" style="width:100%" onclick="currentSlide(1)">
+              </div>
+              <div class="column">
+                <img class="thumb cursor" src="images/pages/product-2.png" style="width:100%" onclick="currentSlide(2)">
+              </div>
+              <div class="column">
+                <img class="thumb cursor" src="images/pages/product-3.png" style="width:100%" onclick="currentSlide(3)">
+              </div>
+            </div>
+        </div>
+
+        <div class="sec-prod__info">
+            <div class="prod__name">Joe Blow Hat</div>
+            <div class="prod__brand">
+                <img src="images/pages/brand.png">
+            </div>
+            <div class="prod__review__bl">
+                <div class="stars">
+                    <label class="rating-label">
+                        <input
+                          class="rating"
+                          max="5"
+                          oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)"
+                          step="1"
+                          style="--value:4"
+                          type="range"
+                          value="4">
+                      </label>
+                    <div class="numbers">4,00</div>
+                </div>
+                <div class="reviews">507 reviews</div>
+                <div class="orders">1268 orders</div>
+            </div>
+            <div class="prod__price">
+                <div class="new">$32</div>
+                <div class="old">$62</div>
+            </div>
+            <div class="prod__value">
+                <div class="size">
+                    <span>size</span>
+                    <div class="prod__value__size">
+                        <select class="style">
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="color">
+                    <span>color</span>
+                    <div class="prod__value__color">
+                        <div class="circle black"></div>
+                        <div class="circle white"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod__col">
+                <div class="v-counter">
+                    <input type="button" class="minusBtn" value="-" />
+                    <input type="text" size="25" value="1" class="count" />
+                    <input type="button" class="plusBtn" value="+" />
+                </div>
+            </div>
+            <div class="prod__btns">
+                <div class="prod__btn__add">Add to cart</div>
+                <div class="prod__btn__add now">Buy now</div>
+                <div class="prod__like"></div>
+            </div>
+            <div class="prod__delivery">
+                <ul>
+                    <li>60-Day Buyer Protection</li>
+                    <li>Free Return</li>
+                </ul>
+            </div>
+            </div>
+    </section>
+
+    <section class="sec1 description sm">
+        <div class="desc_hotel_info">
+            <img src="images/pages/product-text.png" class="left">
+            <h2>Hotels Worldwide Directory : Holiday Inn Hotel</h2>
+            <p><strong>Location:</strong> Unpaid</p>
+            <p><strong>Categories:</strong> Furniture, Fixtures & Equipment</p>
+            <p><strong>Start Date:</strong> 9081 Santa Monica Boulevard West Hollywood, CA 90069 United States</p>
+            <div class="hotel_info__btns">
+                <div class="hotel_info__btn csupp">Contact Supplier</div>
+                <div class="hotel_info__btn phone">Show Phone</div>
+                <div class="hotel_info__btn wsupp">Write a Supplier</div>
+            </div>
+        </div>
+        <div class="desc_hotel_overview">
+            <h3>About us:</h3>
+            <p>The Hotel Buying Office works with boutique hotel owners and operators with supply for projects and regular purchases including furniture, soft furnishings, bedding and linen. Made to order or ready to ship.</p>
+            <h3>Our Service Promise:</h3>
+            <p>Sourcing and supply for over a decade for award winning hotels around the world. Our relationships are built on trust and integrity, quality supply and services - which is good reason for our clients to continue working with us in their design, procurement, supply and project management.</p>
+            <div class="hotel__seller">
+                <h3 class="left">Sellers Products:</h3>
+                <div class="index__bl3__desc">
+                    View More
+                </div>
+                <div class="gallery" data-setting="setup1">
+                    <div class="slider">
+                        <div class="stage">
+                            <div>
+                                <img src="images/pages/sellers-prod-1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/sellers-prod-1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/sellers-prod-1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/sellers-prod-1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/sellers-prod-1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/sellers-prod-1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/sellers-prod-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="nav-ctrl" data-hidden="true">
+                            <span class="prev" data-shift="prev"></span>
+                            <span class="next" data-shift="next"></span>
+                        </div>
+                        <ul class="dots-ctrl" data-hidden="true"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel__information">
+                <div class="hotel__contact-supp-form">
+                    <form action="#" method="post" class="contact-form" id="supplier-form">
+                        <div class="form-title">Contact Supplier</div>
+                        <div class="input-icons">
+                            <span class="supp-icon name"></span>
+                            <input type="text" name="supp-name" value="" size="40" class="form-control name" id="supp-name" placeholder="Name">
+                        </div>
+                        <div class="input-icons">
+                            <span class="supp-icon phone"></span>
+                            <input type="text" name="supp-phone" value="" size="40" class="form-control phone" id="supp-phone" placeholder="Your Telephone">
+                        </div>
+                        <div class="input-icons">
+                            <span class="supp-icon email"></span>
+                            <input type="text" name="supp-email" value="" size="40" class="form-control email" id="supp-email" placeholder="Your Email">
+                        </div>
+                        <div class="input-icons">
+                            <span class="supp-icon message"></span>
+                            <textarea  class="contact-form" name="supp-message" rows="4" cols="33" id="supp-message" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="supplier-form__btn">
+                            <input type="submit" value="Send message" class="form-control-sb submit">
+                            <input type="button" value="Report this page" class="form-control-sb report">
+                        </div>
+                    </form>
+                </div>
+                <h3>Company Information:</h3>
+                <strong>Supplier Name:</strong>
+                <ul><li>Hotel Buying Office</li></ul>
+                <strong>Supplier Website:</strong>
+                <ul><li>http://www.conecom.com</li></ul>
+                <strong>Address:</strong>
+                <ul><li>1001 Hotel Drive, Gold Coast, QLD, Australia</li></ul>
+                <strong>Phone Number:</strong>
+                <ul><li>+61 700000014</li></ul>
+                <strong>Shipping Options:</strong>
+                <ul><li>Air, Sea, Express</li></ul>
+                <strong>Trade References available:</strong>
+                <ul><li>Yes</li></ul>
+                <strong>Hours of Operation:</strong>
+                <ul>
+                    <li>Monday 7:00 AM 17:00 PM</li>
+                    <li>Tuesday 7:00 AM 17:00 PM</li>
+                    <li>Wednesday 7:00 AM 17:00 PM</li>
+                    <li>Thursday 7:00 AM 17:00 PM</li>
+                    <li>Friday 7:00 AM 17:00 PM</li>
+                </ul>
+                <strong>Time Zone:</strong>
+                <ul><li>AEST (Australian Eastern Standard Time)</li></ul>
+                <strong>Accepted Forms of Payments:</strong>
+                <ul><li>EFT, Paypal, Bitcoin</li></ul>
+            </div>
+            <div class="product__library"></div>
+                <h3 class="left">Product Image & Video Library:</h3>
+                <div class="index__bl3__desc">
+                    View More
+                </div>
+                <div class="gallery" data-setting="setup2">
+                    <div class="slider">
+                        <div class="stage">
+                            <div>
+                                <img src="images/pages/prod-img-library-1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/prod-img-library-2.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/prod-img-library-3.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/prod-img-library-4.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/prod-img-library-5.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/prod-img-library-1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/prod-img-library-2.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/prod-img-library-3.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/prod-img-library-4.png" alt="">
+                            </div>
+                            <div>
+                                <img src="images/pages/prod-img-library-5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="nav-ctrl" data-hidden="true">
+                            <span class="prev" data-shift="prev"></span>
+                            <span class="next" data-shift="next"></span>
+                        </div>
+                        <ul class="dots-ctrl" data-hidden="true"></ul>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="sec2 recomm">
+        <div class="prod__recomm__title">Recommended For You</div>
+
+        <div class="fl-block lists rows5 mob-padding-top-0 mob-col-pad-bot-20">
+            <div class="fourd-col">
+                <a href="#">
+                    <div class="category-wr">
+                        <img src="images/pages/pr-recomm-1.png" alt="">
+                    </div>
+                    <div class="index__bl3__buy__block">
+                        <div class="index__bl3__price">
+                            <div class="new">$32</div>
+                            <div class="old">$62</div>
+                        </div>
+                        <div class="index__bl3__like"></div>
+                    </div>
+                    <div class="text-under__name">
+                        Chef Uniforms
+                    </div>
+                </a>
+            </div>
+            <div class="fourd-col">
+                <a href="#">
+                    <div class="category-wr">
+                        <img src="images/pages/pr-recomm-2.png" alt="">
+                    </div>
+                    <div class="index__bl3__buy__block">
+                        <div class="index__bl3__price">
+                            <div class="new">$45</div>
+                            <div class="old">$60</div>
+                        </div>
+                        <div class="index__bl3__like"></div>
+                    </div>
+                    <div class="text-under__name">
+                        Chef Uniforms
+                    </div>
+                </a>
+            </div>
+            <div class="fourd-col">
+                <a href="#">
+                    <div class="category-wr">
+                        <img src="images/pages/pr-recomm-3.png" alt="">
+                    </div>
+                    <div class="index__bl3__buy__block">
+                        <div class="index__bl3__price">
+                            <div class="new">$35</div>
+                            <div class="old">$90</div>
+                        </div>
+                        <div class="index__bl3__like"></div>
+                    </div>
+                    <div class="text-under__name">
+                        Chef Uniforms
+                    </div>
+                </a>
+            </div>
+            <div class="fourd-col">
+                <a href="#">
+                    <div class="category-wr">
+                        <img src="images/pages/pr-recomm-4.png" alt="">
+                    </div>
+                    <div class="index__bl3__buy__block">
+                        <div class="index__bl3__price">
+                            <div class="new">$30</div>
+                            <div class="old">$45</div>
+                        </div>
+                        <div class="index__bl3__like"></div>
+                    </div>
+                    <div class="text-under__name">
+                        Chef Uniforms
+                    </div>
+                </a>
+            </div>
+            <div class="fourd-col">
+                <a href="#">
+                    <div class="category-wr">
+                        <img src="images/pages/pr-recomm-5.png" alt="">
+                    </div>
+                    <div class="index__bl3__buy__block">
+                        <div class="index__bl3__price">
+                            <div class="new">$55</div>
+                            <div class="old">$70</div>
+                        </div>
+                        <div class="index__bl3__like"></div>
+                    </div>
+                    <div class="text-under__name">
+                        Chef Uniforms
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="banner-wr">
+            <div class="banner">
+                <div class="banner__img">
+                    Banner
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+@@include('_footer.html')
