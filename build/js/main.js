@@ -32,10 +32,12 @@ document.querySelector('.right-part__block.pr .link').onclick = function () {
 document.querySelector('.right-part__block.lang .link').onclick = function () {
   document.querySelector('.right-part__block.lang').classList.toggle('active');
 }
-
+document.querySelector('.right-part__block.app .link').onclick = function () {
+  document.querySelector('.popups.app').classList.toggle('active');
+}
 
 // Change View list
-if (document.body.classList.contains('view-sort__bl__button')) {
+if (document.querySelector('.view-sort__bl__button')) {
   // do some stuff
   console.log(true)
   document.querySelector('.view-sort__bl__button.ln').onclick = function () {
@@ -61,9 +63,9 @@ if (document.body.classList.contains('view-sort__bl__button')) {
 
 
 // Load more
-if (document.body.classList.contains('loadmore')) {
+if (document.querySelector('.loadmore')) {
 const loadmore = document.querySelector('.loadmore');
-    let currentItems = 3;
+    let currentItems = 4;
     loadmore.addEventListener('click', (e) => {
         const elementList = [...document.querySelectorAll('.fl-block.list .fourd-col')];
         for (let i = currentItems; i < currentItems + 3; i++) {
@@ -71,7 +73,7 @@ const loadmore = document.querySelector('.loadmore');
                 elementList[i].style.display = 'inline-block';
             }
         }
-        currentItems += 3;
+        currentItems += 4;
         if (currentItems >= elementList.length) {
             event.target.style.display = 'none';
         }
@@ -133,6 +135,7 @@ function triggerEvent(el, type){
 
 
 // Slider on Product page
+if (document.querySelector('.prod__slide')) {
 var slideIndex = 1;
 showSlides(slideIndex);
 function plusSlides(n) {
@@ -156,4 +159,21 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+}
 
+
+// Popups
+if (document.querySelector('.button.popup')) {
+  document.querySelector('.button.popup').onclick = function () {
+    document.querySelector('#events').classList.add('active');
+  }
+  document.querySelector('.button.cookies').onclick = function () {
+    document.querySelector('.popups.cookies').classList.toggle('active');
+  }
+  document.querySelector('.button.birthday').onclick = function () {
+    document.querySelector('.popups.birthday').classList.toggle('active');
+  }
+  document.querySelector('.close').onclick = function () {
+    document.querySelector('#events').classList.remove('active');
+  }
+}
