@@ -9,10 +9,10 @@ document.querySelector('.sub a').onclick = function () {
     for( var i = 0; i < moo.length; i++ ){
     moo[i].addEventListener('click', function(){
         if( active == this ){
-            this.closest('li.subsub').classList.toggle('active');
+            this.closest('.subsub').classList.toggle('active');
         } else {
-            active.closest('li.subsub').classList.remove('active');
-            this.closest('li.subsub').classList.add('active');
+            active.closest('.subsub').classList.remove('active');
+            this.closest('.subsub').classList.add('active');
             active = this;
         }
     });
@@ -23,8 +23,12 @@ document.querySelector('.sub a').onclick = function () {
 
 // Header dropdown menu
 document.querySelector('.header-search svg').onclick = function () {
-    document.querySelector('input').classList.toggle('active');
-    document.querySelector('.header-search').classList.toggle('visible');
+  document.querySelector('input').classList.toggle('active');
+  document.querySelector('.header-search').classList.toggle('visible');
+}
+document.querySelector('.header-search.show svg').onclick = function () {
+  document.querySelector('input').classList.toggle('active');
+  document.querySelector('.header-search.show').classList.toggle('visible');
 }
 document.querySelector('.right-part__block.pr .link').onclick = function () {
     document.querySelector('.right-part__block.pr').classList.toggle('active');
@@ -35,11 +39,13 @@ document.querySelector('.right-part__block.lang .link').onclick = function () {
 document.querySelector('.right-part__block.app .link').onclick = function () {
   document.querySelector('.popups.app').classList.toggle('active');
 }
+document.querySelector('.app.show').onclick = function () {
+  document.querySelector('.popups.app').classList.toggle('active');
+}
 
 // Change View list
 if (document.querySelector('.view-sort__bl__button')) {
   // do some stuff
-  console.log(true)
   document.querySelector('.view-sort__bl__button.ln').onclick = function () {
     this.classList.add('active');
     document.querySelector('.view-sort__bl__button.gr').classList.remove('active');
@@ -176,4 +182,19 @@ if (document.querySelector('.button.popup')) {
   document.querySelector('.close').onclick = function () {
     document.querySelector('#events').classList.remove('active');
   }
+}
+
+// Modile menu
+if (document.querySelector('.header-menu.icon')) {
+  document.querySelector('.header-menu.icon').onclick = function () {
+    document.querySelector('#left-block').classList.toggle('active');
+  }
+}
+document.querySelector('#overlay-button').onclick = function () {
+  document.querySelector('#smenu-lang').classList.remove('active');
+  document.querySelector('#dirlist').classList.remove('active');
+  document.querySelector('#left-block').classList.remove('vis');
+}
+document.querySelector('#smenu-lang__link').onclick = function () {
+  document.querySelector('#smenu-lang').classList.toggle('active');
 }
