@@ -4844,6 +4844,14 @@ footer form img {
     position: relative;
   }
 
+  .events .fourd-col a .category-wr {
+    width: 115px !important;
+    margin: 20px !important;
+    margin-bottom: 0;
+  }
+  .events .courses .course__info .block {
+    display: block !important;
+  }
   .events .index__title {
     width: 100% !important;
   }
@@ -4907,9 +4915,9 @@ footer form img {
     margin-right: 10px;
   }
   .events .fourd-col a .category-wr {
-    width: 100% !important;
-    margin-right: 0 !important;
-    margin-bottom: 10px;
+    width: 115px !important;
+    margin: 20px !important;
+    margin-bottom: 0;
   }
   .events .fourd-col a .dates__block {
     display: inline-block;
@@ -4947,6 +4955,46 @@ footer form img {
   }
   .events .fourd-col a .date__moreinfo .text-under__loc span {
     display: block;
+  }
+
+  .popups {
+    right: 5% !important;
+    width: 90% !important;
+    left: 5% !important;
+  }
+  .popups.cookies input.form-control-sb {
+    font-size: 18px !important;
+    padding: 10px 0 !important;
+    width: 33% !important;
+  }
+  .popups.birthday {
+    padding: 24px;
+  }
+  .popups.birthday .popups__name {
+    line-height: 32px;
+  }
+
+  .fl-block.events.detail .description {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0 !important;
+  }
+  .fl-block.events.detail .fl-block.events.detail .line {
+    margin: 20px 0 !important;
+  }
+  .fl-block.events.detail h3 {
+    margin-bottom: 15px;
+  }
+  .fl-block.events.detail .info_map {
+    display: block !important;
+  }
+  .fl-block.events.detail .info_map .info_map__text {
+    width: 100%;
+    padding-right: 0 !important;
+    margin-bottom: 25px;
+  }
+  .fl-block.events.detail .info_map .info_map__map {
+    width: 100% !important;
   }
 
   footer {
