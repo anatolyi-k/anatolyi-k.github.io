@@ -43,6 +43,17 @@ document.querySelector('.app.show').onclick = function () {
   document.querySelector('.popups.app').classList.toggle('active');
 }
 
+
+// More details -- adaptive
+if (document.querySelector('.block_more')) {
+  let blocks = document.querySelectorAll( ".block_more" );
+  for( let i = 0; i < blocks.length; i++) {
+      blocks[i].querySelector('.block_more_link').onclick = function () {
+      blocks[i].querySelector('.block.sh').classList.toggle('active');
+    }
+  }	
+}
+
 // Change View list
 if (document.querySelector('.view-sort__bl__button')) {
   // do some stuff
@@ -74,7 +85,7 @@ const loadmore = document.querySelector('.loadmore');
     let currentItems = 4;
     loadmore.addEventListener('click', (e) => {
         const elementList = [...document.querySelectorAll('.fl-block.list .fourd-col')];
-        for (let i = currentItems; i < currentItems + 3; i++) {
+        for (let i = currentItems; i < currentItems + 4; i++) {
             if (elementList[i]) {
                 elementList[i].style.display = 'inline-block';
             }
@@ -114,7 +125,6 @@ plusMinusWidgets = document.querySelectorAll(".v-counter");
 for (var i = 0; i < plusMinusWidgets.length; i++) {
   plusMinusWidgets[i].querySelector(".minusBtn").addEventListener("click", clickHandler);
   plusMinusWidgets[i].querySelector(".plusBtn").addEventListener("click", clickHandler);
-  plusMinusWidgets[i].querySelector(".count").addEventListener("change", changeHandler);
 }
 function clickHandler(event) {
   var countEl = event.target.parentNode.querySelector(".count");
@@ -197,4 +207,13 @@ document.querySelector('#overlay-button').onclick = function () {
 }
 document.querySelector('#smenu-lang__link').onclick = function () {
   document.querySelector('#smenu-lang').classList.toggle('active');
+}
+
+// Calendar
+if (document.querySelector('.c-datepicker-btn')) {
+const picker = new MaterialDatePicker().
+  on('submit', val => {
+    document.querySelector('#calendar-date').innerHTML = val.format('DD');
+  });
+document.querySelector('.c-datepicker-btn').addEventListener('click', () => picker.open());
 }

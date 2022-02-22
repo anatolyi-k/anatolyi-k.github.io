@@ -42,6 +42,28 @@ const setting = {
 				visibleItems: 5
 			}
 		}
+	},
+	recomm: {
+		dots: false,
+		keyControl: true,
+		adaptive: {
+			320: {
+				visibleItems: 1,
+				margin: 5,
+				dots: false
+			},
+			560: {
+				visibleItems: 2,
+				margin: 5,
+				dots: false
+			},
+			768: {
+				visibleItems: 4,
+			},
+			1024: {
+				visibleItems: 5
+			}
+		}
 	}
 };
 

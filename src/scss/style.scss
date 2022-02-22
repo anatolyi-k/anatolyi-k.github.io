@@ -1660,7 +1660,7 @@ body.white {
     }
   }
   &.courses {
-    a {
+    a, .a_block {
       display: block !important;
       .category-wr {
         width: 166px !important;
@@ -1732,7 +1732,7 @@ body.white {
           padding-left: 15px;
         }
       }
-      a {
+      a, .a_block {
         display: flex;
         .date__block {
           text-align: center;
@@ -2056,7 +2056,7 @@ body.white {
    }
 }
 
-.fl-block.list .fourd-col:nth-child(1), .fl-block.list .fourd-col:nth-child(2), .fl-block.list .fourd-col:nth-child(3) {
+.fl-block.list .fourd-col:nth-child(1), .fl-block.list .fourd-col:nth-child(2), .fl-block.list .fourd-col:nth-child(3), .fl-block.list .fourd-col:nth-child(4) {
   display: inline-block;
 }
 .fl-block.events .fourd-col:last-child {
@@ -2770,6 +2770,21 @@ section.description {
   .course__info {
     p {
       margin-bottom: 10px;
+    }
+    .block_more_link {
+      margin-bottom: 10px;
+      font-weight: 700;
+      position: relative;
+      text-decoration: underline;
+      &:after {
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 7px;
+        background: url(../images/start/arrow-bottom.svg) no-repeat;
+        margin-left: 13px;
+        top: 8px;
+      }
     }
     .block {
       display: flex;
