@@ -3004,15 +3004,15 @@ section.description p {
   margin-left: 25px;
 }
 
-.course-detail .dates__block {
+.course__detail .dates__block {
   display: flex;
   font-size: 18px;
   margin-bottom: 45px;
 }
-.course-detail .dates__block span {
+.course__detail .dates__block span {
   opacity: 0.3;
 }
-.course-detail .similar-vacancies .fourd-col {
+.course__detail .similar-vacancies .fourd-col {
   width: 100% !important;
   background: #fff;
   border-radius: 20px;
@@ -3020,32 +3020,32 @@ section.description p {
   margin-right: 0 !important;
 }
 
-.career-detail ul {
+.career__detail ul {
   margin-top: 15px;
   margin-bottom: 35px;
   line-height: 25px;
 }
-.career-detail li {
+.career__detail li {
   margin-left: 25px;
 }
-.career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col {
+.career__detail .similar-vacancies .fl-block.lists.rows2 .fourd-col {
   width: 48% !important;
   background: #fff;
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 40px !important;
 }
-.career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .category-wr {
+.career__detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .category-wr {
   text-align: left;
   margin-bottom: 20px;
   padding-top: 0;
   margin-right: 0;
 }
-.career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .company__info {
+.career__detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .company__info {
   line-height: 25px;
   font-size: 14px;
 }
-.career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .dates__block {
+.career__detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .dates__block {
   margin-bottom: 0;
 }
 
@@ -3768,7 +3768,7 @@ footer form img {
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .mcd-menu {
-    width: 200px;
+    width: 130px;
   }
 
   .mcd-menu li a {
@@ -3802,7 +3802,7 @@ footer form img {
 
   .mcd-menu li:hover > ul {
     min-width: 180px;
-    left: 200px;
+    left: 130px;
   }
 
   .mcd-menu li ul li > ul, .mcd-menu li ul li ul li > ul {
@@ -3825,6 +3825,237 @@ footer form img {
 
   .mcd-menu li ul a i {
     font-size: 14px;
+  }
+
+  .left-block__icon.main {
+    background-position: 50px 12px !important;
+  }
+
+  header .container-full-hd .right-part__block {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  header .container-full-hd .right-part__block a {
+    z-index: 0 !important;
+  }
+  header .container-full-hd .mcd-menu li a {
+    height: 75px;
+  }
+  header .container-full-hd .mcd-menu li .smenu a {
+    height: auto !important;
+  }
+
+  .content {
+    margin-left: 135px;
+    padding: 0 20px;
+  }
+
+  .slider {
+    width: 100%;
+  }
+  .slider img {
+    width: 100% !important;
+  }
+
+  .fl-block.lists.rows3 .fourd-col {
+    margin-right: 15px !important;
+    width: 30% !important;
+  }
+
+  .fl-block.list.view-blocks .fourd-col {
+    width: 100% !important;
+  }
+
+  .fl-block.list .fourd-col {
+    margin-right: 21px !important;
+  }
+
+  .fl-block.lists .fourd-col {
+    margin-right: 15px !important;
+  }
+
+  .fl-block.lists.rows2 .fourd-col {
+    width: 47% !important;
+  }
+
+  .careers__list .fl-block.lists.rows2 .fourd-col {
+    width: 46% !important;
+  }
+  .careers__list .fl-block.lists.rows2 .fourd-col .text-under__name {
+    margin-top: 20px;
+    display: inline-block;
+    min-height: 70px;
+  }
+  .careers__list .fl-block.lists.rows2 .fourd-col .dates__block {
+    margin-bottom: 10px !important;
+  }
+
+  .career__detail .line {
+    margin: 15px 0 !important;
+  }
+  .career__detail h3 {
+    margin-bottom: 15px !important;
+  }
+  .career__detail .description {
+    margin: 15px 0 !important;
+  }
+  .career__detail .similar-vacancies .fl-block.lists.rows2 .fourd-col {
+    width: 47% !important;
+  }
+  .career__detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .category-wr {
+    margin-bottom: 0 !important;
+    width: 100%;
+  }
+
+  .cources__list .text-under__name {
+    margin-bottom: 0 !important;
+  }
+  .cources__list .dates__block {
+    margin: 12px 0 !important;
+    float: none !important;
+  }
+  .cources__list .course__info {
+    font-size: 16px !important;
+  }
+  .cources__list .course__info .block {
+    display: block !important;
+    line-height: 30px !important;
+  }
+
+  .course__detail .line {
+    margin: 15px 0 !important;
+  }
+  .course__detail .dates__block {
+    float: none !important;
+    margin: 10px 0;
+  }
+  .course__detail h3 {
+    margin-bottom: 15px !important;
+  }
+  .course__detail .description {
+    margin: 15px 0 !important;
+  }
+  .course__detail .course__info {
+    font-size: 16px !important;
+  }
+  .course__detail .course__info .block {
+    display: block !important;
+    line-height: 30px;
+    font-size: 16px;
+  }
+
+  .event__list .index__bl__date {
+    font-size: 22px !important;
+    width: 38% !important;
+  }
+  .event__list .text__desc {
+    font-size: 14px !important;
+  }
+
+  .event__detail .description {
+    margin: 15px 0 !important;
+  }
+  .event__detail .fourd-col a {
+    display: block;
+  }
+  .event__detail .fourd-col .date__moreinfo {
+    width: 100% !important;
+  }
+  .event__detail .line {
+    margin: 15px 0 !important;
+  }
+  .event__detail .text__desc {
+    font-size: 16px !important;
+    line-height: 27px !important;
+  }
+  .event__detail .dates__block {
+    display: block !important;
+  }
+  .event__detail .dates__block .date {
+    margin: 10px 0;
+  }
+
+  .banner {
+    width: 90% !important;
+  }
+  .banner .banner__img {
+    width: 90% !important;
+  }
+
+  .contact-us .supplier-form__btn {
+    text-align: center;
+  }
+  .contact-us .description {
+    width: 100%;
+  }
+  .contact-us .submit {
+    font-size: 23px !important;
+  }
+  .contact-us .contact-supp-form .input-icons {
+    margin-bottom: 0 !important;
+  }
+
+  .about-us .description {
+    margin: 45px 0 10px 0 !important;
+  }
+  .about-us .description img.right {
+    margin-left: 15px !important;
+    float: right;
+    max-width: 50% !important;
+  }
+  .about-us .description img.left {
+    margin-right: 15px !important;
+    float: left;
+    max-width: 50% !important;
+  }
+
+  .news__list .fl-block.lists .fourd-col {
+    margin-right: 15px !important;
+  }
+  .news__list .dates__block {
+    display: block !important;
+  }
+  .news__list .dates__block .date {
+    margin-right: 0 !important;
+  }
+
+  .sec-prod .prod__btns {
+    display: block !important;
+  }
+  .sec-prod .prod__btns .prod__btn__add {
+    margin-bottom: 15px;
+  }
+
+  .hotel__contact-supp-form {
+    width: 55%;
+  }
+  .hotel__contact-supp-form .form-control-sb {
+    font-size: 20px !important;
+  }
+
+  .popups.cookies input.form-control-sb {
+    font-size: 20px !important;
+  }
+
+  .description .hotel_info__btns {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .back-to-top {
+    right: 20px !important;
+  }
+
+  .chat {
+    right: 40px !important;
+  }
+
+  .fourd-col.top.w100.df {
+    margin-right: 2%;
+  }
+
+  .fourd-col.mid.w50 {
+    width: 41%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -4785,45 +5016,45 @@ footer form img {
     display: inline-block;
   }
 
-  .career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col {
+  .career__detail .similar-vacancies .fl-block.lists.rows2 .fourd-col {
     width: 100% !important;
   }
 
-  .course-detail .line {
+  .course__detail .line {
     border: 1px solid #EDEDED;
     margin: 15px 0 !important;
   }
-  .course-detail .related-courses .text-under__name .dates__block {
+  .course__detail .related-courses .text-under__name .dates__block {
     width: 100%;
     margin: 10px 0;
   }
-  .course-detail .related-courses .course__info {
+  .course__detail .related-courses .course__info {
     margin-top: 15px;
     font-size: 16px;
   }
-  .course-detail .related-courses .course__info .block p {
+  .course__detail .related-courses .course__info .block p {
     margin-bottom: 10px !important;
   }
-  .course-detail .related-courses .course__info .block.sh {
+  .course__detail .related-courses .course__info .block.sh {
     display: none !important;
   }
-  .course-detail .related-courses .course__info .block.sh.active {
+  .course__detail .related-courses .course__info .block.sh.active {
     display: block !important;
   }
-  .course-detail .fourd-col {
+  .course__detail .fourd-col {
     width: 100% !important;
     background: #fff;
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 40px;
   }
-  .course-detail .fourd-col .a_block .category-wr {
+  .course__detail .fourd-col .a_block .category-wr {
     width: 100% !important;
     height: 100px;
     margin-bottom: 20px;
     padding-top: 0;
   }
-  .course-detail .fourd-col .a_block .category-wr img {
+  .course__detail .fourd-col .a_block .category-wr img {
     height: 100px;
     width: 100px;
   }
