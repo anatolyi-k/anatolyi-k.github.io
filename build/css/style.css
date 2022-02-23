@@ -3029,7 +3029,7 @@ section.description p {
   margin-left: 25px;
 }
 .career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col {
-  width: 100% !important;
+  width: 48% !important;
   background: #fff;
   border-radius: 20px;
   padding: 20px;
@@ -3037,19 +3037,13 @@ section.description p {
 }
 .career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .category-wr {
   text-align: left;
-  width: 100%;
-  height: 100px;
   margin-bottom: 20px;
   padding-top: 0;
-  float: none;
-}
-.career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .category-wr img {
-  height: 100px;
-  width: 100px;
+  margin-right: 0;
 }
 .career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .company__info {
   line-height: 25px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .dates__block {
   margin-bottom: 0;
@@ -4624,12 +4618,6 @@ footer form img {
     margin-top: 15px;
     margin-bottom: 10px;
   }
-  .fl-block.lists .fourd-col .category-wr img,
-.fl-block.list .fourd-col .category-wr img,
-.fl-block.lists.rows3 .fourd-col .category-wr img {
-    /*height: 170px;
-    width: 170px;*/
-  }
   .fl-block.lists .fourd-col a,
 .fl-block.list .fourd-col a,
 .fl-block.lists.rows3 .fourd-col a {
@@ -4795,6 +4783,10 @@ footer form img {
   .careers__list .fl-block.lists.rows2 .fourd-col .company__info span {
     margin-top: 10px;
     display: inline-block;
+  }
+
+  .career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col {
+    width: 100% !important;
   }
 
   .course-detail .line {

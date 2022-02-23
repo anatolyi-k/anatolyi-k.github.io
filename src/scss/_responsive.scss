@@ -806,10 +806,6 @@
         margin-top: 15px;
         margin-bottom: 10px;
       }
-      .category-wr img {
-        /*height: 170px;
-        width: 170px;*/
-      }
       a {
         display: block;
       }
@@ -978,6 +974,16 @@
               margin-top: 10px;
               display: inline-block;
             }
+          }
+        }
+      }
+    }
+
+    .career-detail {
+      .similar-vacancies {
+        .fl-block.lists.rows2 {
+          .fourd-col {
+            width: 100% !important;
           }
         }
       }
