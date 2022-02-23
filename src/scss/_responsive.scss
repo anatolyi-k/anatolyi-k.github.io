@@ -807,8 +807,8 @@
         margin-bottom: 10px;
       }
       .category-wr img {
-        height: 170px;
-        width: 170px;
+        /*height: 170px;
+        width: 170px;*/
       }
       a {
         display: block;
@@ -816,6 +816,17 @@
     }
 
     .news__list {
+      .category-wr {
+        border: 0 !important;
+        padding-left: 0 !important;
+        position: relative;
+      }
+      .events__sort__value {
+        width: 70% !important;
+      }
+      select.sort {
+        background-position: 203px -5px !important;
+      }
       .fl-block.lists .fourd-col {
         width: 100% !important;
         margin-right: 0 !important;
@@ -921,7 +932,7 @@
       margin-bottom: 10px;
       display: block;
     }
-    
+
     .careers__list {
       .sort__bl {
         width: 100% !important;
@@ -929,7 +940,7 @@
           width: 70% !important;
         }
         select.sort {
-          background-position: 198px -5px !important;
+          background-position: 255px -5px !important;
         }
       }
       .fl-block.lists.rows2 {
@@ -944,6 +955,7 @@
             height: 100px;
             margin-bottom: 20px;
             padding-top: 0;
+            float: none;
             img {
               height: 100px;
               width: 100px;
@@ -971,6 +983,108 @@
       }
     }
 
+    .course-detail {
+      .line {
+        border: 1px solid #EDEDED;
+        margin: 15px 0 !important;
+      }
+      .related-courses {
+        .text-under__name {
+          .dates__block {
+            width: 100%;
+            margin: 10px 0;
+          }
+        }
+        .course__info {
+          margin-top: 15px;
+          font-size: 16px;
+          .block p {
+            margin-bottom: 10px !important;
+          }
+          .block.sh {
+            display: none !important;
+            &.active {
+              display: block !important;
+            }
+          }
+        }
+      }
+      .fourd-col {
+        width: 100% !important;
+        background: #fff;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 40px;
+        .a_block {
+          .category-wr {
+            width: 100% !important;
+            height: 100px;
+            margin-bottom: 20px;
+            padding-top: 0;
+            img {
+              height: 100px;
+              width: 100px;
+            }
+          }
+        }
+      }
+    }
+
+    .event__list {
+      .category-wr {
+        position: relative;
+        border: 0 !important;
+      }
+      .calendar {
+        display: block !important;
+        #calendar-date {
+          padding-left: 0 !important;
+          &:before {
+            display: none;
+          }
+        }
+      }
+
+      .feature {
+        .category-wr:before {
+          content: "";
+          position: absolute;
+          border-top: 2px solid $color-brand;
+          top: 8px;
+          width: 100%;
+        }
+        img {
+          padding-top: 30px;
+        }
+      }
+      
+      span.feature-label {
+        display: block;
+        left: 0 !important;
+        margin-top: 20px;
+        font-size: 18px !important;
+        padding-left: 25px !important;
+
+      }
+      .sort__bl {
+        select.sort {
+          background-position: 208px -5px !important;
+        }
+        .events__sort__value {
+          width: 72% !important;
+        }
+      }
+    }
+
+    .event__detail {
+      .line {
+        margin: 15px 0 !important;
+      }
+      .category-wr {
+        padding: 20px 20px 0px 20px !important;
+      }
+    }
+
     .cources__list {
       .sort__bl {
         width: 100% !important;
@@ -978,7 +1092,7 @@
           width: 70% !important;
         }
         select.sort {
-          background-position: 198px -5px !important;
+          background-position: 255px -5px !important;
         }
       }
       .fl-block.lists {
@@ -1205,20 +1319,9 @@
     }
 
     .events {
-      .fourd-col {
-        a {
-          .category-wr {
-            width: 115px !important;
-            margin: 20px !important;
-            margin-bottom: 0;
-          }
-        }
-      }
-
-    .courses .course__info .block {
-      display: block !important;
-    }
-       
+      .courses .course__info .block {
+        display: block !important;
+      }       
       .index__title {
         width: 100% !important;
         .line {
@@ -1283,9 +1386,9 @@
           }
         }
         .category-wr {
-          width: 115px !important;
-          margin: 20px !important;
-          margin-bottom: 0;
+          width: 100% !important;
+          margin: 0px !important;
+          margin-bottom: 20px !important;
         }
         .dates__block {
           display: inline-block;

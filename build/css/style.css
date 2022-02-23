@@ -2639,8 +2639,97 @@ section.description p {
   border-left: 1px solid #EDEDED;
 }
 
+.news__list .category-wr {
+  width: 100% !important;
+}
+.news__list .text-under__name {
+  font-size: 18px !important;
+  margin-bottom: 13px;
+}
+
+.event__list .category-wr {
+  width: 30% !important;
+}
+.event__list .calendar {
+  display: none;
+}
+.event__list .date__moreinfo {
+  width: 100% !important;
+}
+.event__list .dates__block {
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.event__list .dates__block span {
+  opacity: 0.3;
+}
+.event__list .dates__block .date {
+  position: relative;
+  padding-left: 28px;
+  margin-right: 32px;
+}
+.event__list .dates__block .date:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 20px;
+  height: 20px;
+  background: url(../images/pages/date-icon.svg) no-repeat;
+}
+.event__list .dates__block .time {
+  position: relative;
+  padding-left: 28px;
+}
+.event__list .dates__block .time:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 20px;
+  height: 20px;
+  background: url(../images/pages/time-icon.svg) no-repeat;
+}
+
+.event__detail .dates__block {
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.event__detail .dates__block span {
+  opacity: 0.3;
+}
+.event__detail .dates__block .date {
+  position: relative;
+  padding-left: 28px;
+  margin-right: 32px;
+}
+.event__detail .dates__block .date:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 20px;
+  height: 20px;
+  background: url(../images/pages/date-icon.svg) no-repeat;
+}
+.event__detail .dates__block .time {
+  position: relative;
+  padding-left: 28px;
+}
+.event__detail .dates__block .time:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 20px;
+  height: 20px;
+  background: url(../images/pages/time-icon.svg) no-repeat;
+}
+
 .news__list .text-under__name, .careers__list .text-under__name {
-  font-size: 24px !important;
+  font-size: 24px;
   margin-bottom: 13px;
 }
 .news__list .company__info, .careers__list .company__info {
@@ -2648,6 +2737,12 @@ section.description p {
 }
 .news__list .company__info span, .careers__list .company__info span {
   font-weight: 700;
+}
+.news__list .category-wr, .careers__list .category-wr {
+  width: 30%;
+}
+.news__list .date__moreinfo, .careers__list .date__moreinfo {
+  width: 85% !important;
 }
 .news__list .dates__block, .careers__list .dates__block {
   display: flex;
@@ -2909,6 +3004,72 @@ section.description p {
   margin-left: 25px;
 }
 
+.course-detail .dates__block {
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.course-detail .dates__block span {
+  opacity: 0.3;
+}
+.course-detail .similar-vacancies .fourd-col {
+  width: 100% !important;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-right: 0 !important;
+}
+
+.career-detail ul {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  line-height: 25px;
+}
+.career-detail li {
+  margin-left: 25px;
+}
+.career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col {
+  width: 100% !important;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 40px !important;
+}
+.career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .category-wr {
+  text-align: left;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding-top: 0;
+  float: none;
+}
+.career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .category-wr img {
+  height: 100px;
+  width: 100px;
+}
+.career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .company__info {
+  line-height: 25px;
+  font-size: 16px;
+}
+.career-detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .dates__block {
+  margin-bottom: 0;
+}
+
+.date {
+  margin-right: 18px;
+  padding-left: 25px;
+  position: relative;
+}
+.date:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 20px;
+  height: 20px;
+  background: url(../images/pages/date-icon.svg) no-repeat;
+}
+
 .events__block {
   font-size: 18px;
 }
@@ -2986,6 +3147,7 @@ section.description p {
   background: #000;
   border-radius: 20px;
   text-align: center;
+  width: 100% !important;
 }
 .awards .text-under__name {
   font-size: 18px !important;
@@ -4465,8 +4627,8 @@ footer form img {
   .fl-block.lists .fourd-col .category-wr img,
 .fl-block.list .fourd-col .category-wr img,
 .fl-block.lists.rows3 .fourd-col .category-wr img {
-    height: 170px;
-    width: 170px;
+    /*height: 170px;
+    width: 170px;*/
   }
   .fl-block.lists .fourd-col a,
 .fl-block.list .fourd-col a,
@@ -4474,6 +4636,17 @@ footer form img {
     display: block;
   }
 
+  .news__list .category-wr {
+    border: 0 !important;
+    padding-left: 0 !important;
+    position: relative;
+  }
+  .news__list .events__sort__value {
+    width: 70% !important;
+  }
+  .news__list select.sort {
+    background-position: 203px -5px !important;
+  }
   .news__list .fl-block.lists .fourd-col {
     width: 100% !important;
     margin-right: 0 !important;
@@ -4585,7 +4758,7 @@ footer form img {
     width: 70% !important;
   }
   .careers__list .sort__bl select.sort {
-    background-position: 198px -5px !important;
+    background-position: 255px -5px !important;
   }
   .careers__list .fl-block.lists.rows2 .fourd-col {
     width: 100% !important;
@@ -4599,6 +4772,7 @@ footer form img {
     height: 100px;
     margin-bottom: 20px;
     padding-top: 0;
+    float: none;
   }
   .careers__list .fl-block.lists.rows2 .fourd-col .category-wr img {
     height: 100px;
@@ -4623,6 +4797,89 @@ footer form img {
     display: inline-block;
   }
 
+  .course-detail .line {
+    border: 1px solid #EDEDED;
+    margin: 15px 0 !important;
+  }
+  .course-detail .related-courses .text-under__name .dates__block {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .course-detail .related-courses .course__info {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  .course-detail .related-courses .course__info .block p {
+    margin-bottom: 10px !important;
+  }
+  .course-detail .related-courses .course__info .block.sh {
+    display: none !important;
+  }
+  .course-detail .related-courses .course__info .block.sh.active {
+    display: block !important;
+  }
+  .course-detail .fourd-col {
+    width: 100% !important;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .course-detail .fourd-col .a_block .category-wr {
+    width: 100% !important;
+    height: 100px;
+    margin-bottom: 20px;
+    padding-top: 0;
+  }
+  .course-detail .fourd-col .a_block .category-wr img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .event__list .category-wr {
+    position: relative;
+    border: 0 !important;
+  }
+  .event__list .calendar {
+    display: block !important;
+  }
+  .event__list .calendar #calendar-date {
+    padding-left: 0 !important;
+  }
+  .event__list .calendar #calendar-date:before {
+    display: none;
+  }
+  .event__list .feature .category-wr:before {
+    content: "";
+    position: absolute;
+    border-top: 2px solid #ED462E;
+    top: 8px;
+    width: 100%;
+  }
+  .event__list .feature img {
+    padding-top: 30px;
+  }
+  .event__list span.feature-label {
+    display: block;
+    left: 0 !important;
+    margin-top: 20px;
+    font-size: 18px !important;
+    padding-left: 25px !important;
+  }
+  .event__list .sort__bl select.sort {
+    background-position: 208px -5px !important;
+  }
+  .event__list .sort__bl .events__sort__value {
+    width: 72% !important;
+  }
+
+  .event__detail .line {
+    margin: 15px 0 !important;
+  }
+  .event__detail .category-wr {
+    padding: 20px 20px 0px 20px !important;
+  }
+
   .cources__list .sort__bl {
     width: 100% !important;
   }
@@ -4630,7 +4887,7 @@ footer form img {
     width: 70% !important;
   }
   .cources__list .sort__bl select.sort {
-    background-position: 198px -5px !important;
+    background-position: 255px -5px !important;
   }
   .cources__list .fl-block.lists .fourd-col {
     width: 100% !important;
@@ -4844,11 +5101,6 @@ footer form img {
     position: relative;
   }
 
-  .events .fourd-col a .category-wr {
-    width: 115px !important;
-    margin: 20px !important;
-    margin-bottom: 0;
-  }
   .events .courses .course__info .block {
     display: block !important;
   }
@@ -4915,9 +5167,9 @@ footer form img {
     margin-right: 10px;
   }
   .events .fourd-col a .category-wr {
-    width: 115px !important;
-    margin: 20px !important;
-    margin-bottom: 0;
+    width: 100% !important;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
   }
   .events .fourd-col a .dates__block {
     display: inline-block;

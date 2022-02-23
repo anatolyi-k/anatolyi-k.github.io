@@ -2455,9 +2455,106 @@ section.description {
   }
 }
 
+.news__list {
+  .category-wr {
+    width: 100% !important;
+  }
+  .text-under__name {
+    font-size: 18px !important;
+    margin-bottom: 13px;
+  }
+}
+
+.event__list {
+  .category-wr {
+    width: 30% !important;
+  }
+  .calendar {
+    display: none;
+  }
+  .date__moreinfo {
+    width: 100% !important;
+  }
+  .dates__block {
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 45px;
+    span {
+      opacity: 0.3;
+    }
+    .date {
+      position: relative;
+      padding-left: 28px;
+      margin-right: 32px;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/pages/date-icon.svg) no-repeat;
+      }
+    }
+    .time {
+      position: relative;
+      padding-left: 28px;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/pages/time-icon.svg) no-repeat;
+      }
+    }
+  }
+}
+
+.event__detail {
+  .dates__block {
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 45px;
+    span {
+      opacity: 0.3;
+    }
+    .date {
+      position: relative;
+      padding-left: 28px;
+      margin-right: 32px;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/pages/date-icon.svg) no-repeat;
+      }
+    }
+    .time {
+      position: relative;
+      padding-left: 28px;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/pages/time-icon.svg) no-repeat;
+      }
+    }
+  }
+}
+
+
+
 .news__list, .careers__list {
   .text-under__name {
-    font-size: 24px !important;
+    font-size: 24px;
     margin-bottom: 13px;
   }
   .company__info {
@@ -2465,6 +2562,12 @@ section.description {
     span {
       font-weight: 700;
     }
+  }
+  .category-wr {
+    width: 30%;
+  }
+  .date__moreinfo {
+    width: 85% !important;
   }
   .dates__block {
     display: flex;
@@ -2719,6 +2822,83 @@ section.description {
     margin-left: 25px;
   }
 }
+
+.course-detail {
+  .dates__block {
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 45px;
+    span {
+      opacity: 0.3;
+    }
+  }
+  .similar-vacancies {
+    .fourd-col {
+      width: 100% !important;
+      background: #fff;
+      border-radius: 20px;
+      padding: 20px;
+      margin-right: 0 !important;
+    }
+  }
+}
+
+.career-detail {
+  ul {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    line-height: 25px;
+  }
+  li {
+    margin-left: 25px;
+  }
+  .similar-vacancies {
+    .fl-block.lists.rows2 {
+      .fourd-col {
+        width: 100% !important;
+        background: #fff;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 40px !important;
+        .category-wr {
+          text-align: left;
+          width: 100%;
+          height: 100px;
+          margin-bottom: 20px;
+          padding-top: 0;
+          float: none;
+          img {
+            height: 100px;
+            width: 100px;
+          }
+        }
+        .company__info {
+          line-height: 25px;
+          font-size: 16px;
+        }
+        .dates__block {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+  .date {
+    margin-right: 18px;
+    padding-left: 25px;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 2px;
+      width: 20px;
+      height: 20px;
+      background: url(../images/pages/date-icon.svg) no-repeat;
+    }
+  }
+
 .events__block {
   font-size: 18px;
   span {
@@ -2805,6 +2985,7 @@ section.description {
     background: #000;
     border-radius: 20px;
     text-align: center;
+    width: 100% !important;
   }
   .text-under__name {
     font-size: 18px !important;
