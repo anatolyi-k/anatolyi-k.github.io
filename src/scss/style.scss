@@ -164,100 +164,6 @@ header.fix {
   z-index: 999;
 }
 
-.localization {
-  position: relative;
-}
-
-.localization .localization__item {
-  font-size: 12px;
-  line-height: 1.5;
-  position: relative;
-  padding: 0 15px;
-  cursor: pointer;
-}
-
-.localization .localization__item:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 4px;
-  width: 10px;
-  height: 10px;
-  background: url("../images/icon-place-white.svg") no-repeat center;
-}
-
-.localization .localization__item:after {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  -o-transition: transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 3px;
-  width: 10px;
-  height: 10px;
-  background: url("../images/arrow.svg") no-repeat center;
-}
-
-.localization .localization-dropdown {
-  opacity: 0;
-  position: absolute;
-  z-index: -1;
-  background: #1f1f1f;
-  max-width: 133px;
-  min-height: 129px;
-  padding: 15px;
-  top: -300px;
-}
-
-.localization .localization-dropdown .localization-dropdown__item.search {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.localization .localization-dropdown .localization-dropdown__item.search input {
-  width: 100%;
-  padding-left: 5px;
-  background: none;
-  border: 0;
-  font-size: 10px;
-  color: #fff;
-}
-
-.localization .localization-dropdown .localization-dropdown__item.active {
-  color: #de2508;
-}
-
-.localization .localization-dropdown .localization-dropdown__item {
-  cursor: pointer;
-  padding: 5px 0 3px;
-  font-size: 12px;
-  line-height: 18px;
-  border-bottom: 1px solid rgba(51, 51, 51, 0.41);
-}
-
-.localization .localization-dropdown .localization-dropdown__item:last-child {
-  padding-bottom: 0;
-  border-bottom: 0;
-}
-
-.localization-mob .localization {
-  background: #333333;
-  color: #fff;
-  padding: 11px 25px;
-}
-
-.localization-mob .localization .localization__item:after {
-  width: 19px;
-  height: 19px;
-  background: url("../images/mob/icon.svg");
-  top: 0;
-}
-
 header {
   position: fixed;
   top: 0;
@@ -835,6 +741,8 @@ header .container-full-hd .logo-header.small-logo-right {
 
 div#left-block {
   position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
   left: 0;
   top: 0;
   background: #fff;
@@ -1066,6 +974,7 @@ div#left-block {
   z-index: 1;
   left: 250px;
   top: 100px;
+  display: none;
 }
 
 .mcd-menu li.main.active {

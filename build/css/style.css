@@ -352,100 +352,6 @@ header.fix {
   z-index: 999;
 }
 
-.localization {
-  position: relative;
-}
-
-.localization .localization__item {
-  font-size: 12px;
-  line-height: 1.5;
-  position: relative;
-  padding: 0 15px;
-  cursor: pointer;
-}
-
-.localization .localization__item:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 4px;
-  width: 10px;
-  height: 10px;
-  background: url("../images/icon-place-white.svg") no-repeat center;
-}
-
-.localization .localization__item:after {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  -o-transition: transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 3px;
-  width: 10px;
-  height: 10px;
-  background: url("../images/arrow.svg") no-repeat center;
-}
-
-.localization .localization-dropdown {
-  opacity: 0;
-  position: absolute;
-  z-index: -1;
-  background: #1f1f1f;
-  max-width: 133px;
-  min-height: 129px;
-  padding: 15px;
-  top: -300px;
-}
-
-.localization .localization-dropdown .localization-dropdown__item.search {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.localization .localization-dropdown .localization-dropdown__item.search input {
-  width: 100%;
-  padding-left: 5px;
-  background: none;
-  border: 0;
-  font-size: 10px;
-  color: #fff;
-}
-
-.localization .localization-dropdown .localization-dropdown__item.active {
-  color: #de2508;
-}
-
-.localization .localization-dropdown .localization-dropdown__item {
-  cursor: pointer;
-  padding: 5px 0 3px;
-  font-size: 12px;
-  line-height: 18px;
-  border-bottom: 1px solid rgba(51, 51, 51, 0.41);
-}
-
-.localization .localization-dropdown .localization-dropdown__item:last-child {
-  padding-bottom: 0;
-  border-bottom: 0;
-}
-
-.localization-mob .localization {
-  background: #333333;
-  color: #fff;
-  padding: 11px 25px;
-}
-
-.localization-mob .localization .localization__item:after {
-  width: 19px;
-  height: 19px;
-  background: url("../images/mob/icon.svg");
-  top: 0;
-}
-
 header {
   position: fixed;
   top: 0;
@@ -1042,6 +948,8 @@ header .container-full-hd .logo-header.small-logo-right {
 
 div#left-block {
   position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
   left: 0;
   top: 0;
   background: #fff;
@@ -1277,6 +1185,7 @@ div#left-block {
   z-index: 1;
   left: 250px;
   top: 100px;
+  display: none;
 }
 
 .mcd-menu li.main.active {
@@ -3737,6 +3646,93 @@ footer form img {
 @media only screen and (min-width: 1200px) {
   .container {
     width: 1210px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1470px) {
+  .container {
+    width: 1030px;
+  }
+
+  .content {
+    max-width: 1140px;
+    margin-left: 200px;
+  }
+
+  .container-full-hd {
+    max-width: 1140px;
+    margin-left: 200px;
+  }
+
+  .slider {
+    width: 100%;
+  }
+  .slider img {
+    width: 100%;
+  }
+
+  .fl-block.lists.rows3 .fourd-col:nth-child(4n) {
+    margin-right: 25px !important;
+  }
+  .fl-block.lists.rows3 .fourd-col:nth-child(3n) {
+    margin-right: 0 !important;
+  }
+
+  .fl-block.lists .fourd-col {
+    width: 23%;
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 40px;
+  }
+  .fl-block.lists .fourd-col:nth-child(4n) {
+    margin-right: 0 !important;
+  }
+  .fl-block.lists .fourd-col .text-under__name {
+    display: inline-block !important;
+    margin-bottom: 10px;
+  }
+  .fl-block.lists .fourd-col .text-under__name .dates__block {
+    float: left !important;
+    padding-top: 8px;
+  }
+  .fl-block.lists .fourd-col .course__info .block {
+    display: block !important;
+  }
+  .fl-block.lists .fourd-col .course__info .block p {
+    margin-bottom: 10px !important;
+  }
+
+  .fl-block.lists.rows1.big .fourd-col .category-wr {
+    width: 100% !important;
+  }
+
+  .cources__list .text-under__name {
+    min-height: 110px !important;
+  }
+
+  .careers__list .text-under__name {
+    min-height: 40px !important;
+  }
+  .careers__list .company__info {
+    min-height: 110px !important;
+  }
+
+  .career__detail .similar-vacancies .fl-block.lists .fourd-col .text-under__name {
+    min-height: auto !important;
+  }
+  .career__detail .similar-vacancies .fl-block.lists .fourd-col .company__info {
+    min-height: auto !important;
+  }
+
+  .view-sort__bl {
+    margin-top: 30px !important;
+  }
+
+  .chat {
+    right: 150px;
+  }
+
+  .back-to-top {
+    right: 130px;
   }
 }
 @media only screen and (min-width: 960px) and (max-width: 1199px) {

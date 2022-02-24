@@ -4,6 +4,110 @@
     }
   }
   
+  @media only screen and (min-width: 1200px) and (max-width: 1470px) {
+    .container {
+      width: 1030px;
+    }
+    .content {
+      max-width: 1140px;
+      margin-left: 200px;
+    }
+    .container-full-hd {
+      max-width: 1140px;
+      margin-left: 200px;
+    }
+    .slider {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .fl-block.lists.rows3 {
+      .fourd-col:nth-child(4n) {
+        margin-right: 25px !important;
+      }
+      .fourd-col:nth-child(3n) {
+        margin-right: 0 !important;
+      }
+    }
+    .fl-block.lists {
+      .fourd-col {
+        width: 23%;
+        display: inline-block;
+        margin-right: 25px;
+        margin-bottom: 40px;
+        &:nth-child(4n) {
+          margin-right: 0 !important;
+        }
+        .text-under__name {
+          display: inline-block !important;
+          //min-height: 110px !important;
+          margin-bottom: 10px;
+          .dates__block {
+            float: left !important;
+            padding-top: 8px;
+          }
+        }
+        .course__info .block {
+          display: block !important;
+          p {
+            margin-bottom: 10px !important;
+          }
+        }
+      }
+    }
+
+    .fl-block.lists.rows1.big {
+      .fourd-col {
+        .category-wr {
+          width: 100% !important;
+        }
+      }
+    } 
+
+    .cources__list {
+      .text-under__name {
+        min-height: 110px !important;
+      }
+    }
+
+    .careers__list {
+      .text-under__name {
+        min-height: 40px !important;
+      }
+      .company__info {
+        min-height: 110px !important;
+      }
+    }
+
+    .career__detail {
+      .similar-vacancies {
+        .fl-block.lists {
+          .fourd-col {
+            .text-under__name {
+              min-height: auto !important;
+            }
+            .company__info {
+              min-height: auto !important;
+            }
+          }
+        } 
+      }
+    }
+
+    .view-sort__bl {
+      margin-top: 30px !important;
+    }
+
+    .chat {
+      right: 150px;
+    }
+    .back-to-top {
+      right: 130px;
+    }
+
+  }
+
   @media only screen and (min-width: 960px) and (max-width: 1199px) {
     .container {
       width: 1030px;
