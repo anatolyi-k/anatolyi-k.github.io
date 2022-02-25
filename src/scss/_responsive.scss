@@ -1450,10 +1450,10 @@
       }
       .sort__bl {
         select.sort {
-          background-position: 208px -5px !important;
+          background-position: 143px -5px !important;
         }
         .events__sort__value {
-          width: 72% !important;
+          width: 68% !important;
         }
       }
     }
@@ -1771,6 +1771,7 @@
           width: 100% !important;
           margin: 0px !important;
           margin-bottom: 20px !important;
+          padding-left: 0 !important;
         }
         .dates__block {
           display: inline-block;

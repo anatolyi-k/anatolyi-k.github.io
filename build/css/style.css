@@ -5091,10 +5091,10 @@ footer form img {
     padding-left: 25px !important;
   }
   .event__list .sort__bl select.sort {
-    background-position: 208px -5px !important;
+    background-position: 143px -5px !important;
   }
   .event__list .sort__bl .events__sort__value {
-    width: 72% !important;
+    width: 68% !important;
   }
 
   .event__detail .line {
@@ -5394,6 +5394,7 @@ footer form img {
     width: 100% !important;
     margin: 0px !important;
     margin-bottom: 20px !important;
+    padding-left: 0 !important;
   }
   .events .fourd-col a .dates__block {
     display: inline-block;
