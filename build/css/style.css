@@ -3712,10 +3712,6 @@ footer form img {
   .careers__list .text-under__name {
     min-height: 40px !important;
   }
-  .careers__list .company__info {
-    min-height: 110px !important;
-  }
-
   .career__detail .similar-vacancies .fl-block.lists .fourd-col .text-under__name {
     min-height: auto !important;
   }
