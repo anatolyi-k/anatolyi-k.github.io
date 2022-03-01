@@ -931,7 +931,6 @@ header .container-full-hd .logo-header.small-logo-right {
 
 .left-block__icon.main.br {
   padding-bottom: 20px;
-  border-bottom: 1px solid #E7E7E7;
   margin-bottom: 20px;
 }
 
@@ -4168,6 +4167,10 @@ footer form img {
   .left-part {
     width: 20% !important;
     float: left;
+  }
+
+  .left-block__icon.main.br {
+    border-bottom: 1px solid #E7E7E7;
   }
 
   .right-part {
