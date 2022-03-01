@@ -1652,6 +1652,7 @@ body.white {
   border-radius: 20px;
   height: 166px;
   padding: 15px 0;
+  margin-bottom: 30px;
 }
 .fl-block.lists.rows2 .fourd-col .text-under__name {
   font-size: 24px;
@@ -2925,7 +2926,6 @@ section.description p {
   background: #fff;
   border-radius: 20px;
   padding: 20px;
-  margin-right: 0 !important;
 }
 
 .career__detail ul {
@@ -2938,7 +2938,6 @@ section.description p {
 }
 .career__detail .similar-vacancies .fl-block.lists.rows2 .fourd-col {
   width: 48% !important;
-  background: #fff;
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 40px !important;
@@ -2947,7 +2946,6 @@ section.description p {
   text-align: left;
   margin-bottom: 20px;
   padding-top: 0;
-  margin-right: 0;
 }
 .career__detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .company__info {
   line-height: 25px;
@@ -2990,7 +2988,7 @@ section.description p {
 .similar-vacancies .fl-block.lists.rows2 .fourd-col {
   margin-bottom: 0;
 }
-.similar-vacancies .fl-block.lists.rows2 .fourd-col a {
+.similar-vacancies .fl-block.lists.rows2 .fourd-col .a_block {
   display: block !important;
 }
 
@@ -3901,6 +3899,8 @@ footer form img {
   .career__detail .similar-vacancies .fl-block.lists.rows2 .fourd-col .category-wr {
     margin-bottom: 0 !important;
     width: 100%;
+    padding-top: 15px !important;
+    text-align: center;
   }
 
   .cources__list .text-under__name {
@@ -5370,57 +5370,57 @@ footer form img {
   .events .c-btn--flat, .events .c-btn--flat:hover, .events .c-btn--flat:active {
     box-shadow: none;
   }
-  .events .fourd-col a {
+  .events .fourd-col .a_block {
     display: block !important;
   }
-  .events .fourd-col a .date__block {
+  .events .fourd-col .a_block .date__block {
     display: inline-flex;
     margin-bottom: 20px;
   }
-  .events .fourd-col a .date__block .month {
+  .events .fourd-col .a_block .date__block .month {
     margin-right: 10px;
   }
-  .events .fourd-col a .category-wr {
+  .events .fourd-col .a_block .category-wr {
     width: 100% !important;
     margin: 0px !important;
     margin-bottom: 20px !important;
     padding-left: 0 !important;
   }
-  .events .fourd-col a .dates__block {
+  .events .fourd-col .a_block .dates__block {
     display: inline-block;
     font-size: 16px !important;
     margin-top: 6px;
     width: 100%;
     margin-bottom: 0;
   }
-  .events .fourd-col a .dates__block .view {
+  .events .fourd-col .a_block .dates__block .view {
     display: inline-flex;
   }
-  .events .fourd-col a .dates__block .date {
+  .events .fourd-col .a_block .dates__block .date {
     display: inline-flex;
     float: right;
     margin-right: 0 !important;
   }
-  .events .fourd-col a .dates__block .cart {
+  .events .fourd-col .a_block .dates__block .cart {
     width: 100%;
     display: block;
     margin-top: 16px;
   }
-  .events .fourd-col a .text__desc {
+  .events .fourd-col .a_block .text__desc {
     font-size: 16px !important;
     line-height: 26px !important;
   }
-  .events .fourd-col a .date__moreinfo {
+  .events .fourd-col .a_block .date__moreinfo {
     width: 100% !important;
     background: #FFFFFF;
     border-radius: 20px;
     padding: 20px;
   }
-  .events .fourd-col a .date__moreinfo .text-under__loc {
+  .events .fourd-col .a_block .date__moreinfo .text-under__loc {
     font-size: 16px;
     line-height: 26px;
   }
-  .events .fourd-col a .date__moreinfo .text-under__loc span {
+  .events .fourd-col .a_block .date__moreinfo .text-under__loc span {
     display: block;
   }
 

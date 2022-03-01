@@ -1436,6 +1436,7 @@ body.white {
         border-radius: 20px;
         height: 166px;
         padding: 15px 0;
+        margin-bottom: 30px;
       }
       .text-under__name {
         font-size: 24px;
@@ -2747,7 +2748,6 @@ section.description {
       background: #fff;
       border-radius: 20px;
       padding: 20px;
-      margin-right: 0 !important;
     }
   }
 }
@@ -2765,7 +2765,7 @@ section.description {
     .fl-block.lists.rows2 {
       .fourd-col {
         width: 48% !important;
-        background: #fff;
+        //background: #fff;
         border-radius: 20px;
         padding: 20px;
         margin-bottom: 40px !important;
@@ -2773,7 +2773,7 @@ section.description {
           text-align: left;
           margin-bottom: 20px;
           padding-top: 0;
-          margin-right: 0;
+          //margin-right: 0;
         }
         .company__info {
           line-height: 25px;
@@ -2819,7 +2819,7 @@ section.description {
   }
   .fl-block.lists.rows2 .fourd-col {
     margin-bottom: 0;
-    a {
+    .a_block {
       display: block !important;
     }
   }

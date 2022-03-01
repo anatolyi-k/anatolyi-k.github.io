@@ -286,6 +286,8 @@
             .category-wr {
               margin-bottom: 0 !important;
               width: 100%;
+              padding-top: 15px !important;
+              text-align: center;
             }
           }
         }
@@ -1761,7 +1763,7 @@
         box-shadow: none;
       }
       
-      .fourd-col a {
+      .fourd-col .a_block {
         display: block !important;
         .date__block {
           display: inline-flex;
