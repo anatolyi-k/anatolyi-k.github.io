@@ -1145,7 +1145,7 @@
       margin-right: 5%;
       select.sort {
         text-align: right;
-        background-position: 135px -5px;
+        background-position: right;
         padding-right: 35px;
       }
       .events__sort__value {
@@ -1312,7 +1312,7 @@
           width: 70% !important;
         }
         select.sort {
-          background-position: 255px -5px !important;
+          //background-position: 255px -5px !important;
         }
       }
       .fl-block.lists.rows2 {
@@ -1450,7 +1450,7 @@
       }
       .sort__bl {
         select.sort {
-          background-position: 143px -5px !important;
+          //background-position: 143px -5px !important;
         }
         .events__sort__value {
           width: 68% !important;
@@ -1474,7 +1474,7 @@
           width: 70% !important;
         }
         select.sort {
-          background-position: 255px -5px !important;
+          //background-position: 255px -5px !important;
         }
       }
       .fl-block.lists {

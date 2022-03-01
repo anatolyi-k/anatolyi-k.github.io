@@ -4803,7 +4803,7 @@ footer form img {
   }
   .index__title.left .sort__bl select.sort {
     text-align: right;
-    background-position: 135px -5px;
+    background-position: right;
     padding-right: 35px;
   }
   .index__title.left .sort__bl .events__sort__value {
@@ -4977,9 +4977,6 @@ footer form img {
   .careers__list .sort__bl .events__sort__value {
     width: 70% !important;
   }
-  .careers__list .sort__bl select.sort {
-    background-position: 255px -5px !important;
-  }
   .careers__list .fl-block.lists.rows2 .fourd-col {
     width: 100% !important;
     background: #fff;
@@ -5090,9 +5087,6 @@ footer form img {
     font-size: 18px !important;
     padding-left: 25px !important;
   }
-  .event__list .sort__bl select.sort {
-    background-position: 143px -5px !important;
-  }
   .event__list .sort__bl .events__sort__value {
     width: 68% !important;
   }
@@ -5109,9 +5103,6 @@ footer form img {
   }
   .cources__list .sort__bl .events__sort__value {
     width: 70% !important;
-  }
-  .cources__list .sort__bl select.sort {
-    background-position: 255px -5px !important;
   }
   .cources__list .fl-block.lists .fourd-col {
     width: 100% !important;
