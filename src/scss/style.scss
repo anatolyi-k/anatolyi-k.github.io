@@ -2525,9 +2525,14 @@ section.description {
   }
 }
 
-.careers__list .dates__block {
-  margin-bottom: 45px;
-}
+.careers__list {
+  .dates__block {
+    margin-bottom: 45px;
+  }
+  .company__info {
+    min-height: 80px;
+  }
+} 
 
 .rating {
   --dir: right;

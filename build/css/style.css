@@ -212,7 +212,6 @@ input::-webkit-inner-spin-button {
   border-bottom: 1px solid #1e1e1e;
 }
 
-/*класс active мы будум добавлять для элементов на которые нажал пользователь*/
 .descElem.active {
   display: block;
   overflow: initial;
@@ -2703,6 +2702,9 @@ section.description p {
 
 .careers__list .dates__block {
   margin-bottom: 45px;
+}
+.careers__list .company__info {
+  min-height: 80px;
 }
 
 .rating {
