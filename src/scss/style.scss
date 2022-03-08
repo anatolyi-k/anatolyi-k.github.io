@@ -20,7 +20,6 @@
   padding: 20px 10px;
   border-bottom: 1px solid #1e1e1e;
 }
-/*класс active мы будум добавлять для элементов на которые нажал пользователь*/
 .descElem.active {
   display: block;
   overflow: initial;
@@ -41,6 +40,10 @@ header {
 .content {
   max-width: 1240px;
   margin: 0 auto;
+  margin-left: 180px;
+  &.index {
+    margin-left: 0;
+  }
 }
 
 .padd-top-40 {
@@ -1639,7 +1642,7 @@ body.white {
         opacity: 0.1;
       }
     .fourd-col {
-      width: 100%;
+      width: 100% !important;
       margin-bottom: 45px;
       &.feature {
         .category-wr {
@@ -2831,9 +2834,19 @@ section.description {
   }
 }
 
-.courses {
-  .text-under__name {
-    font-weight: 700;
+.fl-block.lists.courses {
+  .fourd-col {
+    .text-under__name {
+      font-weight: 700;
+      display: flex !important;
+      min-height: auto !important;
+      margin-bottom: 20px !important;
+    }
+    .course__info {
+      .block {
+        display: flex !important;
+      }
+    }
   }
   .category-wr {
     img {
@@ -2846,6 +2859,8 @@ section.description {
     display: flex;
     font-size: 18px;
     float: right;
+    margin-left: 45px;
+    padding-top: 0 !important;
     .view:before {
       bottom: 5px !important;
     }

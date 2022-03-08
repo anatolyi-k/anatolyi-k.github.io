@@ -231,6 +231,10 @@ header {
 .content {
   max-width: 1240px;
   margin: 0 auto;
+  margin-left: 180px;
+}
+.content.index {
+  margin-left: 0;
 }
 
 .padd-top-40 {
@@ -1838,7 +1842,7 @@ body.white {
   opacity: 0.1;
 }
 .fl-block.events .fourd-col, .fl-block.courses .fourd-col {
-  width: 100%;
+  width: 100% !important;
   margin-bottom: 45px;
 }
 .fl-block.events .fourd-col.feature .category-wr, .fl-block.courses .fourd-col.feature .category-wr {
@@ -3000,38 +3004,46 @@ section.description p {
   display: block !important;
 }
 
-.courses .text-under__name {
+.fl-block.lists.courses .fourd-col .text-under__name {
   font-weight: 700;
+  display: flex !important;
+  min-height: auto !important;
+  margin-bottom: 20px !important;
 }
-.courses .category-wr img {
+.fl-block.lists.courses .fourd-col .course__info .block {
+  display: flex !important;
+}
+.fl-block.lists.courses .category-wr img {
   height: auto;
   -webkit-border-radius: 20px;
   border-radius: 20px;
 }
-.courses .dates__block {
+.fl-block.lists.courses .dates__block {
   display: flex;
   font-size: 18px;
   float: right;
+  margin-left: 45px;
+  padding-top: 0 !important;
 }
-.courses .dates__block .view:before {
+.fl-block.lists.courses .dates__block .view:before {
   bottom: 5px !important;
 }
-.courses .dates__block .date:before {
+.fl-block.lists.courses .dates__block .date:before {
   bottom: 5px !important;
 }
-.courses .date__moreinfo {
+.fl-block.lists.courses .date__moreinfo {
   width: 100% !important;
 }
-.courses .course__info p {
+.fl-block.lists.courses .course__info p {
   margin-bottom: 10px;
 }
-.courses .course__info .block_more_link {
+.fl-block.lists.courses .course__info .block_more_link {
   margin-bottom: 10px;
   font-weight: 700;
   position: relative;
   text-decoration: underline;
 }
-.courses .course__info .block_more_link:after {
+.fl-block.lists.courses .course__info .block_more_link:after {
   content: "";
   position: absolute;
   width: 12px;
@@ -3040,14 +3052,14 @@ section.description p {
   margin-left: 13px;
   top: 8px;
 }
-.courses .course__info .block {
+.fl-block.lists.courses .course__info .block {
   display: flex;
 }
-.courses .course__info .block p {
+.fl-block.lists.courses .course__info .block p {
   margin-right: 45px;
   margin-bottom: 0;
 }
-.courses .course__info span {
+.fl-block.lists.courses .course__info span {
   font-weight: 700;
 }
 
