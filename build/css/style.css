@@ -1610,6 +1610,7 @@ body.white {
 }
 .fl-block.list {
   display: block;
+  margin-top: 39px;
 }
 .fl-block.list .fourd-col {
   width: 22%;
@@ -1617,6 +1618,10 @@ body.white {
   margin-right: 30px;
   margin-bottom: 40px;
   display: none;
+}
+.fl-block.list .fourd-col .text-under__name {
+  margin-bottom: 0;
+  min-height: 57px;
 }
 .fl-block.list .fourd-col:nth-child(4n) {
   margin-right: 0 !important;
@@ -2113,11 +2118,11 @@ body.white {
   width: 170px !important;
 }
 .fl-block.view-blocks .text-under__name {
-  font-size: 24px;
+  font-size: 21px;
   margin: 0;
   padding-top: 25px;
   line-height: 28px;
-  min-height: 82px;
+  min-height: 82px !important;
   padding-right: 10px;
 }
 .fl-block.view-blocks .index__bl3__desc {
@@ -3691,7 +3696,8 @@ footer form img {
   }
   .fl-block.lists .fourd-col .text-under__name {
     display: inline-block !important;
-    margin-bottom: 10px;
+    margin-bottom: 0;
+    min-height: 57px;
   }
   .fl-block.lists .fourd-col .text-under__name .dates__block {
     float: left !important;

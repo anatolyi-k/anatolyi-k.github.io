@@ -1395,17 +1395,22 @@ body.white {
       -ms-flex-pack: justify;
           justify-content: space-between;
   &.list {
+    display: block;
+    margin-top: 39px;
     .fourd-col {
       width: 22%;
       display: inline-block;
       margin-right: 30px;
       margin-bottom: 40px;
       display: none;
+      .text-under__name {
+        margin-bottom: 0;
+        min-height: 57px;
+      }
     }
     .fourd-col:nth-child(4n) {
       margin-right: 0 !important;
     }
-    display: block;
   }
   &.lists {
     display: block;
@@ -1925,11 +1930,11 @@ body.white {
       width: 170px !important;
     }
     .text-under__name {
-      font-size: 24px;
+      font-size: 21px;
       margin: 0;
       padding-top: 25px;
       line-height: 28px;
-      min-height: 82px;
+      min-height: 82px !important;
       padding-right: 10px;
     }
     .index__bl3__desc {
