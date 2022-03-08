@@ -2101,6 +2101,9 @@ body.white {
   background-position: center;
   margin-left: 30px;
 }
+.fl-block.view-blocks {
+  margin-top: 39px;
+}
 .fl-block.view-blocks .fourd-col.list {
   width: 31%;
   background-color: #fff;
@@ -3652,12 +3655,15 @@ footer form img {
 
   .content {
     max-width: 1140px;
-    margin-left: 200px;
+    margin-left: 180px;
+  }
+  .content.index {
+    margin: 0 auto !important;
   }
 
   .container-full-hd {
     max-width: 1140px;
-    margin-left: 200px;
+    margin-left: 180px;
   }
 
   .slider {
@@ -3726,11 +3732,11 @@ footer form img {
   }
 
   .chat {
-    right: 150px;
+    right: 45px;
   }
 
   .back-to-top {
-    right: 130px;
+    right: 25px;
   }
 }
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
@@ -4238,8 +4244,8 @@ footer form img {
     position: absolute !important;
     visibility: hidden;
     width: 100%;
-    top: 87px !important;
-    height: 88vh !important;
+    top: 85px !important;
+    height: 85vh !important;
     -webkit-border-radius: 0px 40px 0 0px !important;
     border-radius: 0px 40px 0 0px !important;
     overflow: auto;

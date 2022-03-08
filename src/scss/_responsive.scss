@@ -10,11 +10,14 @@
     }
     .content {
       max-width: 1140px;
-      margin-left: 200px;
+      margin-left: 180px;
+      &.index {
+        margin: 0 auto !important;
+      }
     }
     .container-full-hd {
       max-width: 1140px;
-      margin-left: 200px;
+      margin-left: 180px;
     }
     .slider {
       width: 100%;
@@ -105,10 +108,10 @@
     }
 
     .chat {
-      right: 150px;
+      right: 45px;
     }
     .back-to-top {
-      right: 130px;
+      right: 25px;
     }
 
   }
@@ -631,8 +634,8 @@
       position: absolute !important;
       visibility: hidden;
       width: 100%;
-      top: 87px !important;
-      height: 88vh !important;
+      top: 85px !important;
+      height: 85vh !important;
       -webkit-border-radius: 0px 40px 0 0px !important;
       border-radius: 0px 40px 0 0px !important;
       overflow: auto;
