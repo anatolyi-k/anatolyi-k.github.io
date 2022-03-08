@@ -425,6 +425,12 @@
       }
     }
 
+    .awards {
+      .text-under__name {
+        min-height: 128px !important;
+      }
+    }
+
     .sec-prod .prod__btns {
       display: block !important;
       .prod__btn__add {
@@ -1533,16 +1539,21 @@
     }
 
     .awards {
-      .fourd-col .category-wr {
-        height: auto !important;
-        overflow: hidden;
-        border-radius: 20px;
-        img {
-          width: 210px !important;
-          height: auto;
-          vertical-align: bottom;
+      .fourd-col {
+        .category-wr {
+          height: auto !important;
+          overflow: hidden;
+          border-radius: 20px;
+          img {
+            width: 210px !important;
+            height: auto;
+            vertical-align: bottom;
+          }
         }
-      } 
+        .text-under__name {
+          min-height: 60px !important;
+        }
+      }
     }
 
     .fourd-col .category-wr {

@@ -2895,11 +2895,14 @@ section.description {
     border-radius: 20px;
     text-align: center;
     width: 100% !important;
+    &.blue {
+      background: #193764;
+    }
   }
   .text-under__name {
     font-size: 18px !important;
     margin-bottom: 13px;
-    min-height: 80px;
+    min-height: 80px !important;
   }
 }
 

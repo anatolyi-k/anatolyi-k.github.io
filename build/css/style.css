@@ -3057,10 +3057,13 @@ section.description p {
   text-align: center;
   width: 100% !important;
 }
+.awards .category-wr.blue {
+  background: #193764;
+}
 .awards .text-under__name {
   font-size: 18px !important;
   margin-bottom: 13px;
-  min-height: 80px;
+  min-height: 80px !important;
 }
 
 .about-us .index__bl__title {
@@ -4025,6 +4028,10 @@ footer form img {
   }
   .news__list .dates__block .date {
     margin-right: 0 !important;
+  }
+
+  .awards .text-under__name {
+    min-height: 128px !important;
   }
 
   .sec-prod .prod__btns {
@@ -5168,6 +5175,9 @@ footer form img {
     width: 210px !important;
     height: auto;
     vertical-align: bottom;
+  }
+  .awards .fourd-col .text-under__name {
+    min-height: 60px !important;
   }
 
   .fourd-col .category-wr {
