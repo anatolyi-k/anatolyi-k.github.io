@@ -1369,6 +1369,7 @@ body.white {
   padding: 15px;
 }
 .work {
+  display: none !important;
   position: absolute;
   width: 120px;
   text-align: center;
@@ -1933,7 +1934,7 @@ body.white {
       width: 170px !important;
     }
     .text-under__name {
-      font-size: 21px;
+      font-size: 19px;
       margin: 0;
       padding-top: 25px;
       line-height: 28px;

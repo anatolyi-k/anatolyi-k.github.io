@@ -307,6 +307,10 @@
     .fl-block.lists {
       .fourd-col {
         margin-right: 15px !important;
+        .text-under__name {
+          font-size: 16px !important;
+          min-height: 45px !important;
+        }
       }
     }
     .fl-block.lists.rows2 {
