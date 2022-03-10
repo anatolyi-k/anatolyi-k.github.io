@@ -2710,6 +2710,9 @@ section.description p {
 .careers__list .company__info {
   min-height: 80px;
 }
+.careers__list .text-under__name {
+  font-size: 19px !important;
+}
 
 .rating {
   --dir: right;
