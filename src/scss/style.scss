@@ -1528,7 +1528,7 @@ body.white {
           }
         }
         .text-under__name {
-          font-size: 24px;
+          font-size: 22px;
           font-weight: 700;
         }
       }
@@ -1881,6 +1881,7 @@ body.white {
     display: flex;
   }
   &.rows1 .fourd-col {
+    width: 100% !important;
     .category-wr {
       float: left;
       margin-right: 30px;
@@ -1921,7 +1922,6 @@ body.white {
       background-position: center;
       margin-left: 30px;
     }
-    width: 100%;
   }
   &.view-blocks {
     margin-top: 39px;
