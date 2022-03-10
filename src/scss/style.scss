@@ -40,10 +40,16 @@ header {
 .content {
   max-width: 1240px;
   margin: 0 auto;
-  margin-left: 180px;
+  padding-left: 150px;
   &.index {
-    margin-left: 0;
+    padding-left: 0;
   }
+}
+
+.container-full-hd {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-left: 150px !important;
 }
 
 .padd-top-40 {
@@ -72,12 +78,6 @@ header {
 
 .padd-bottom-30 {
   padding-bottom: 30px;
-}
-
-.container-full-hd {
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 0 !important;
 }
 
 .header-container {

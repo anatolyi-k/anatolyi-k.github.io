@@ -10,14 +10,14 @@
     }
     .content {
       max-width: 1140px;
-      margin-left: 180px;
+      //margin-left: 180px;
       &.index {
         margin: 0 auto !important;
       }
     }
     .container-full-hd {
       max-width: 1140px;
-      margin-left: 180px;
+      //margin-left: 180px;
     }
     .slider {
       width: 100%;
@@ -37,7 +37,7 @@
       .fourd-col {
         width: 23%;
         display: inline-block;
-        margin-right: 25px;
+        margin-right: 20px;
         margin-bottom: 40px;
         &:nth-child(4n) {
           margin-right: 0 !important;
@@ -120,6 +120,31 @@
     .container {
       width: 1030px;
     }
+    .content,
+    .container-full-hd {
+      max-width: 95%;
+    }
+    .slider {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .banner {
+      width: 90%;
+      padding: 35px 0;
+      .banner__img {
+        width: 80%;
+      }
+    }
+    .fl-block.lists {
+      .fourd-col {
+        margin-right: 20px;
+        .text-under__name {
+          min-height: 60px;
+        }
+      }
+    } 
   }
   
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -202,7 +227,7 @@
       .container-full-hd {
         .right-part__block {
           padding-left: 10px !important;
-          padding-right: 10px !important;
+          padding-right: 5px !important;
           a {
             z-index: 0 !important;
           }
@@ -219,9 +244,43 @@
         }
       }
     }
-    .content {
-      margin-left: 135px;
-      padding: 0 20px;
+    .content,
+    .container-full-hd {
+      max-width: 95%;
+      padding-left: 130px;
+    }
+    .container-full-hd.right-part__block.pr .link:after,
+    .right-part__block.lang .link:after {
+      right: -7px !important;
+    }
+    .right-part__block.lang.active {
+      height: 100% !important;
+      margin: 0 !important;
+    }
+    .right-part__block.lang ul.submenu {
+      width: 160px !important;
+    }
+    .submenu li:last-child {
+      border-bottom: none !important;
+    }
+    .header-search span {
+      margin-left: 30px !important;
+    }
+    .header-search input.active {
+      width: 140px !important;
+      left: 24px !important;
+      top: 6px !important;
+    }
+    .right-part__block {
+      padding-left: 10px !important;
+      padding-right: 5px !important;
+    }
+    .wl span,
+    .lang span {
+      display: none;
+    }
+    .app .link {
+      margin-right: 0;
     }
     .slider {
       width: 100%;
@@ -552,6 +611,7 @@
     }
     .content {
       margin: 0 16px;
+      padding-left: 0 !important;
     }
     .hide {
       display: none !important;
