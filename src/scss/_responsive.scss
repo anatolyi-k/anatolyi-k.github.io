@@ -399,20 +399,26 @@
     }
         
     .cources__list {
-      .text-under__name {
-        margin-bottom: 0 !important;
-      }
-      .dates__block {
-        margin: 12px 0 !important;
-        float: none !important;
-      }
-      .course__info {
-        font-size: 16px !important;
-        .block {
-          display: block !important;
-          line-height: 30px !important;
+      .lists.courses {
+        .fourd-col {
+          .text-under__name {
+            margin-bottom: 0 !important;
+            display: block !important;
+          }
+          .dates__block {
+            margin: 12px 0 !important;
+            float: none !important;
+          }
+          .course__info {
+            font-size: 16px !important;
+            .block {
+              display: block !important;
+              line-height: 30px !important;
+            }
+          } 
         }
-      } 
+
+      }
     }
 
     .course__detail {

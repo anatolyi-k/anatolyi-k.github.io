@@ -1329,8 +1329,39 @@ body.white {
     font-size: 25px;
     line-height: 29px;
   }
+  .sorl__date__bl {
+    display: flex;
+    .calendar {
+      display: block;
+      position: relative;
+      background: #fff;
+      border-radius: 20px;
+      width: 54px;
+      margin-top: -10px;
+      .c-btn {
+        width: 36px;
+        height: 36px;
+        background: url(../images/pages/date-icon-mob.svg) no-repeat;
+        background-position: 10px 8px;
+        padding: 22px 0;
+        #calendar-date {
+          position: absolute;
+          top: 20px;
+          left: 19px;
+          width: 18px;
+          text-align: center;
+          font-weight: normal;
+          padding-left: 0 !important;
+          &:before {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
   .sort__bl {
     margin-left: 30px;
+    margin-right: 20px;
     width: 200px;
     display: flex;
     font-size: 17px;
@@ -1633,7 +1664,7 @@ body.white {
     display: block;
       .index__bl__date {
         font-size: 22px;
-        width: 14%;
+        width: 18%;
         text-align: left;
       }
       .line {
