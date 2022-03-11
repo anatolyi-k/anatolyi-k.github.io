@@ -125,7 +125,7 @@
       max-width: 95%;
     }
     .slider {
-      width: 100%;
+      //width: 100%;
       img {
         width: 100%;
       }
@@ -171,9 +171,44 @@
     .mcd-menu {
       margin-left: 10px;
     }
+    .index {
+      .index__bl3 {
+        display: grid;
+        .index__bl3__item {
+          margin: 0 auto;
+          margin-bottom: 40px !important;
+          width: 350px;
+          .index__bl3__img {
+            height: 330px;
+          }
+        }
+      }
+    }
   }
   
   @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .index {
+      .index__bl3 {
+        display: grid;
+        .index__bl3__item {
+          margin: 0 auto;
+          margin-bottom: 40px !important;
+          width: 350px;
+          .index__bl3__img {
+            height: 330px;
+          }
+        }
+      }
+    }
+    header {
+      .container-full-hd {
+        .right-part {
+          .right-part__block.lang.active {
+            height: auto !important;
+          }
+        }
+      }
+    }
     .mcd-menu {
       width: 130px;
     }
@@ -283,7 +318,7 @@
       margin-right: 0;
     }
     .slider {
-      width: 100%;
+      //width: 100%;
       img {
         width: 100% !important;
       }
@@ -301,15 +336,19 @@
     }
     .fl-block.list {
       .fourd-col {
-        margin-right: 21px !important;
+        margin-right: 19px !important;
+        .text-under__name {
+          min-height: 80px;
+        }
       }
     }
     .fl-block.lists {
       .fourd-col {
         margin-right: 15px !important;
         .text-under__name {
-          font-size: 16px !important;
-          min-height: 45px !important;
+          //font-size: 16px !important;
+          min-height: 85px !important;
+          margin-bottom: 0;
         }
       }
     }
@@ -324,9 +363,8 @@
         .fourd-col {
           width: 46% !important;
           .text-under__name {
-            margin-top: 20px;
             display: inline-block;
-            min-height: 70px;
+            min-height: 55px !important;
           }
           .dates__block {
             margin-bottom: 10px !important;
@@ -488,9 +526,11 @@
       }
     }
 
-    .awards {
-      .text-under__name {
-        min-height: 128px !important;
+    .awards.lists {
+      .fourd-col {
+        .text-under__name {
+          min-height: 128px !important;
+        }
       }
     }
 
@@ -518,6 +558,33 @@
       width: 100%;
       margin-bottom: 30px;
     }
+
+    .sec-prod {
+      .prod__value {
+        display: inline-block;
+        .size {
+          margin-bottom: 20px;
+        }
+        .color {
+          text-align: left;
+          float: left;
+          .prod__value__color {
+            display: inline-flex;
+            float: none;
+          }
+        }
+      }
+      .prod__review__bl {
+        display: block !important;
+        margin-bottom: 20px !important;
+        .reviews,
+        .orders {
+          width: 49%;
+          display: inline-block;
+          margin-right: 0 !important;
+        }
+      }
+    } 
    
     .back-to-top {
       right: 20px !important;
@@ -536,6 +603,29 @@
   }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .index {
+      .index__bl3 {
+        display: grid;
+        .index__bl3__item {
+          margin: 0 auto;
+          margin-bottom: 40px !important;
+          width: 350px;
+          .index__bl3__img {
+            height: 330px;
+          }
+        }
+      }
+    }
+    .right-part__block {
+      padding: 0 10px !important;
+    }
+    .wl span,
+    .lang span {
+      display: none;
+    }
+    .app .link {
+      margin-right: 0;
+    }
     .mcd-menu {
       width: 50px;
     }
@@ -606,6 +696,42 @@
     }
     .mcd-menu li ul a i {
       font-size: 14px;
+    }
+    .slider img {
+      width: 100%;
+    }
+    .fl-block.list,
+    .fl-block.lists {
+      .fourd-col {
+        width: 45% !important;
+        margin-right: 19px !important;
+      }
+    }
+    .sec-prod {
+      .prod__value {
+        display: inline-block;
+        .size {
+          margin-bottom: 20px;
+        }
+        .color {
+          text-align: left;
+          float: left;
+          .prod__value__color {
+            display: inline-flex;
+            float: none;
+          }
+        }
+      }
+      .prod__review__bl {
+        display: block !important;
+        margin-bottom: 20px !important;
+        .reviews,
+        .orders {
+          width: 49%;
+          display: inline-block;
+          margin-right: 0 !important;
+        }
+      }
     }
   }
   
