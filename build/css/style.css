@@ -1539,12 +1539,6 @@ body.white {
   font-size: 25px;
   line-height: 29px;
 }
-.index__title.left .u-hover-ball-effect:hover:before,
-.index__title.left .c-datepicker__day-body:hover:before,
-.index__title.left .c-datepicker__clock__num:hover:before,
-.index__title.left .c-datepicker__clock__am-pm-toggle label:hover:before {
-  background: #f38f31 !important;
-}
 .index__title.left .sorl__date__bl {
   display: flex;
 }
@@ -4668,6 +4662,10 @@ footer form img {
   }
   .mcd-menu .left-block__icon.exit :before {
     display: none;
+  }
+
+  #loadmore {
+    width: 100% !important;
   }
 
   .mcd-menu li a {
