@@ -2164,7 +2164,7 @@
         }
       }
     }
-    .fl-block.lists.rows1.big {
+    .fl-block.lists.rows1 {
       .fourd-col {
         width: 100% !important;
         .text-under__name {
@@ -2176,6 +2176,14 @@
           img {
             width: 200px !important;
           }
+        }
+      }
+    }
+    .fl-block.lists.rows2 {
+      .fourd-col {
+        .text-under__name {
+          float: left !important;
+          width: 100%;
         }
       }
     }

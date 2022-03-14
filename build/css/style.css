@@ -1603,6 +1603,7 @@ body.white {
 }
 
 .label {
+  display: none !important;
   position: absolute;
   right: 0;
   background: #ff0000;
@@ -5808,14 +5809,20 @@ footer form img {
     line-height: 22px;
   }
 
-  .fl-block.lists.rows1.big .fourd-col {
+  .fl-block.lists.rows1 .fourd-col {
     width: 100% !important;
   }
-  .fl-block.lists.rows1.big .fourd-col .text-under__name {
+  .fl-block.lists.rows1 .fourd-col .text-under__name {
     float: left !important;
     margin-top: 0 !important;
+    width: 100%;
   }
-  .fl-block.lists.rows1.big .fourd-col .category-wr img {
-    width: auto !important;
+  .fl-block.lists.rows1 .fourd-col .category-wr img {
+    width: 200px !important;
+  }
+
+  .fl-block.lists.rows2 .fourd-col .text-under__name {
+    float: left !important;
+    width: 100%;
   }
 }
