@@ -5799,3 +5799,23 @@ footer form img {
     height: 44px;
   }
 }
+@media only screen and (max-width: 420px) {
+  .fl-block.lists .fourd-col .text-under__name,
+.fl-block.list .fourd-col .text-under__name {
+    font-size: 19px !important;
+    overflow: scroll;
+    max-height: 63px;
+    line-height: 22px;
+  }
+
+  .fl-block.lists.rows1.big .fourd-col {
+    width: 100% !important;
+  }
+  .fl-block.lists.rows1.big .fourd-col .text-under__name {
+    float: left !important;
+    margin-top: 0 !important;
+  }
+  .fl-block.lists.rows1.big .fourd-col .category-wr img {
+    width: auto !important;
+  }
+}

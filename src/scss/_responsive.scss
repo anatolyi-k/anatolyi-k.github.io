@@ -2151,3 +2151,31 @@
     }
     
   }
+
+  @media only screen and (max-width: 420px) {
+    .fl-block.lists,
+    .fl-block.list {
+      .fourd-col {
+        .text-under__name {
+          font-size: 19px !important;
+          overflow: scroll;
+          max-height: 63px;
+          line-height: 22px;
+        }
+      }
+    }
+    .fl-block.lists.rows1.big {
+      .fourd-col {
+        width: 100% !important;
+        .text-under__name {
+          float: left !important;
+          margin-top: 0 !important;
+        }
+        .category-wr {
+          img {
+            width: auto !important;
+          }
+        }
+      }
+    }
+  }
