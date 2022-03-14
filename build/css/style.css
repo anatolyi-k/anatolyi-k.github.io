@@ -3757,8 +3757,9 @@ footer form img {
   .fl-block.lists .fourd-col .course__info .block {
     display: block !important;
   }
-  .fl-block.lists .fourd-col .course__info .block p {
-    margin-bottom: 10px !important;
+  .fl-block.lists .fourd-col .course__info .block p span {
+    float: left;
+    width: 100%;
   }
 
   /*.fl-block.lists.rows1.big {
@@ -3827,6 +3828,11 @@ footer form img {
   .fl-block.lists .fourd-col .text-under__name {
     min-height: 60px;
   }
+
+  .course__info .block p span {
+    float: left;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .container {
@@ -3860,6 +3866,11 @@ footer form img {
   }
   .index .index__bl3 .index__bl3__item .index__bl3__img {
     height: 330px;
+  }
+
+  .course__info .block p span {
+    float: left;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {

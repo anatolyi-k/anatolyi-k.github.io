@@ -54,7 +54,10 @@
         .course__info .block {
           display: block !important;
           p {
-            margin-bottom: 10px !important;
+            span {
+              float: left;
+              width: 100%;
+            }
           }
         }
       }
@@ -144,7 +147,15 @@
           min-height: 60px;
         }
       }
-    } 
+    }
+    .course__info .block {
+      p {
+        span {
+          float: left;
+          width: 100%;
+        }
+      }
+    }
   }
   
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -181,6 +192,14 @@
           .index__bl3__img {
             height: 330px;
           }
+        }
+      }
+    }
+    .course__info .block {
+      p {
+        span {
+          float: left;
+          width: 100%;
         }
       }
     }
