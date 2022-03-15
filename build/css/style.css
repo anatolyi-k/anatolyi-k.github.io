@@ -2156,13 +2156,13 @@ body.white {
 .fl-block.view-blocks .text-under__name {
   font-size: 19px;
   margin: 0;
-  padding-top: 25px;
-  line-height: 28px;
-  min-height: 82px !important;
+  padding-top: 14px;
+  line-height: 24px;
+  min-height: 86px !important;
   padding-right: 10px;
 }
 .fl-block.view-blocks .index__bl3__desc {
-  margin: 11px 0 30px 0;
+  margin: 11px 0 10px 0;
 }
 .fl-block.view-blocks .fourd-col:nth-child(3n) {
   margin-right: 0 !important;
@@ -5928,7 +5928,6 @@ footer form img {
 @media only screen and (max-width: 420px) {
   .fl-block.lists .fourd-col .text-under__name,
 .fl-block.list .fourd-col .text-under__name {
-    font-size: 19px !important;
     overflow: scroll;
     max-height: 63px;
     line-height: 22px;
