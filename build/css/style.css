@@ -4134,6 +4134,13 @@ footer form img {
     line-height: 30px;
     font-size: 16px;
   }
+  .course__detail .lists.courses .fourd-col .text-under__name {
+    margin-bottom: 0 !important;
+    display: block !important;
+  }
+  .course__detail .lists.courses .fourd-col .course__info .block.sh {
+    display: block !important;
+  }
 
   .event__list .index__bl__date {
     font-size: 22px !important;
@@ -4449,6 +4456,44 @@ footer form img {
   }
   .description .block_img img {
     max-width: 95% !important;
+  }
+
+  .lists.courses .fourd-col .text-under__name {
+    margin-bottom: 0 !important;
+    display: block !important;
+  }
+  .lists.courses .fourd-col .course__info .block.sh {
+    display: block !important;
+  }
+
+  .related-courses.fl-block.lists.courses .fourd-col {
+    width: 100% !important;
+  }
+  .related-courses.fl-block.lists.courses .text-under__name {
+    font-size: 18px !important;
+    display: block !important;
+    float: left;
+    max-height: initial !important;
+  }
+  .related-courses.fl-block.lists.courses .text-under__name .dates__block {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .related-courses.fl-block.lists.courses .text-under__name .dates__block .date {
+    float: none !important;
+  }
+  .related-courses.fl-block.lists.courses .block.sh {
+    display: none !important;
+  }
+  .related-courses.fl-block.lists.courses .block.sh.active {
+    display: block !important;
+  }
+  .related-courses.fl-block.lists.courses .course__info {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  .related-courses.fl-block.lists.courses .course__info .block p {
+    margin-bottom: 10px !important;
   }
 }
 @media only screen and (max-width: 479px) {
@@ -5348,22 +5393,34 @@ footer form img {
     border: 1px solid #EDEDED;
     margin: 15px 0 !important;
   }
-  .course__detail .related-courses .text-under__name .dates__block {
+  .course__detail .related-courses.fl-block.lists.courses .fourd-col {
+    width: 100% !important;
+  }
+  .course__detail .related-courses.fl-block.lists.courses .text-under__name {
+    font-size: 18px !important;
+    display: block !important;
+    float: left;
+    max-height: initial !important;
+  }
+  .course__detail .related-courses.fl-block.lists.courses .text-under__name .dates__block {
     width: 100%;
     margin: 10px 0;
   }
-  .course__detail .related-courses .course__info {
+  .course__detail .related-courses.fl-block.lists.courses .text-under__name .dates__block .date {
+    float: none !important;
+  }
+  .course__detail .related-courses.fl-block.lists.courses .block.sh {
+    display: none !important;
+  }
+  .course__detail .related-courses.fl-block.lists.courses .block.sh.active {
+    display: block !important;
+  }
+  .course__detail .related-courses.fl-block.lists.courses .course__info {
     margin-top: 15px;
     font-size: 16px;
   }
-  .course__detail .related-courses .course__info .block p {
+  .course__detail .related-courses.fl-block.lists.courses .course__info .block p {
     margin-bottom: 10px !important;
-  }
-  .course__detail .related-courses .course__info .block.sh {
-    display: none !important;
-  }
-  .course__detail .related-courses .course__info .block.sh.active {
-    display: block !important;
   }
   .course__detail .fourd-col {
     width: 100% !important;
