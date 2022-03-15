@@ -5360,6 +5360,7 @@ footer form img {
 
   .careers__list .sort__bl {
     width: 100% !important;
+    padding-right: 0 !important;
   }
   .careers__list .sort__bl .events__sort__value {
     width: 70% !important;
