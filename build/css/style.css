@@ -3134,15 +3134,15 @@ section.description p {
 .about-us .description {
   font-size: 16px !important;
   line-height: 26px !important;
-  display: inline-block;
+  display: flex;
 }
-.about-us .description img.left {
-  float: left;
-  margin-right: 115px;
+.about-us .description .block_text.left {
+  padding-right: 50px;
 }
-.about-us .description img.right {
-  float: right;
-  margin-left: 115px;
+.about-us .description .block_text.right {
+  padding-left: 50px;
+  margin-left: auto;
+  order: 2;
 }
 .about-us .description p {
   margin-bottom: 25px;
@@ -3762,13 +3762,10 @@ footer form img {
     width: 100%;
   }
 
-  /*.fl-block.lists.rows1.big {
-    .fourd-col {
-      .category-wr {
-        width: 100% !important;
-      }
-    }
-  } */
+  .course__detail .related-courses .dates__block {
+    margin-bottom: 0 !important;
+  }
+
   .cources__list .text-under__name {
     min-height: 110px !important;
   }
@@ -3833,6 +3830,17 @@ footer form img {
     float: left;
     width: 100%;
   }
+
+  .description {
+    display: block !important;
+  }
+  .description .block_text {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .description .block_img {
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .container {
@@ -3871,6 +3879,17 @@ footer form img {
   .course__info .block p span {
     float: left;
     width: 100%;
+  }
+
+  .description {
+    display: block !important;
+  }
+  .description .block_text {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .description .block_img {
+    text-align: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -4243,6 +4262,17 @@ footer form img {
     margin-right: 0 !important;
   }
 
+  .description {
+    display: block !important;
+  }
+  .description .block_text {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .description .block_img {
+    text-align: center;
+  }
+
   .back-to-top {
     right: 20px !important;
   }
@@ -4405,6 +4435,20 @@ footer form img {
     width: 49%;
     display: inline-block;
     margin-right: 0 !important;
+  }
+
+  .description {
+    display: block !important;
+  }
+  .description .block_text {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .description .block_img {
+    text-align: center;
+  }
+  .description .block_img img {
+    max-width: 95% !important;
   }
 }
 @media only screen and (max-width: 479px) {
@@ -4674,6 +4718,17 @@ footer form img {
   }
   .mcd-menu .left-block__icon.exit :before {
     display: none;
+  }
+
+  .description {
+    display: block !important;
+  }
+  .description .block_text {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .description .block_img {
+    text-align: center;
   }
 
   #loadmore {
@@ -5395,7 +5450,9 @@ footer form img {
   }
   .cources__list .fl-block.lists .fourd-col .text-under__name {
     font-size: 18px !important;
-    margin-bottom: 0;
+    display: block !important;
+    float: left;
+    max-height: initial !important;
   }
   .cources__list .fl-block.lists .fourd-col .text-under__name .dates__block {
     width: 100%;

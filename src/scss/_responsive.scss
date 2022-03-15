@@ -63,13 +63,13 @@
       }
     }
 
-    /*.fl-block.lists.rows1.big {
-      .fourd-col {
-        .category-wr {
-          width: 100% !important;
+    .course__detail {
+      .related-courses {
+        .dates__block {
+          margin-bottom: 0 !important;
         }
       }
-    } */
+    }
 
     .cources__list {
       .text-under__name {
@@ -156,6 +156,17 @@
         }
       }
     }
+    .description {
+      display: block !important;
+      .block_text {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .block_img {
+        text-align: center;
+      }
+    }
+
   }
   
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -201,6 +212,16 @@
           float: left;
           width: 100%;
         }
+      }
+    }
+    .description {
+      display: block !important;
+      .block_text {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .block_img {
+        text-align: center;
       }
     }
   }
@@ -609,7 +630,18 @@
           margin-right: 0 !important;
         }
       }
-    } 
+    }
+
+    .description {
+      display: block !important;
+      .block_text {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .block_img {
+        text-align: center;
+      }
+    }
    
     .back-to-top {
       right: 20px !important;
@@ -755,6 +787,19 @@
           width: 49%;
           display: inline-block;
           margin-right: 0 !important;
+        }
+      }
+    }
+    .description {
+      display: block !important;
+      .block_text {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .block_img {
+        text-align: center;
+        img {
+          max-width: 95% !important;
         }
       }
     }
@@ -1031,6 +1076,16 @@
         :before {
           display: none;
         }
+      }
+    }
+    .description {
+      display: block !important;
+      .block_text {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .block_img {
+        text-align: center;
       }
     }
     #loadmore {
@@ -1730,7 +1785,9 @@
           }
           .text-under__name {
             font-size: 18px !important;
-            margin-bottom: 0;
+            display: block !important;
+            float: left;
+            max-height: initial !important;
             .dates__block {
               width: 100%;
               margin: 10px 0;
