@@ -4644,10 +4644,26 @@ footer form img {
   }
 
   .slider {
-    width: 100%;
+    width: 92%;
   }
   .slider img {
     width: 100%;
+  }
+
+  .control {
+    top: 50% !important;
+  }
+
+  .gallery .control {
+    top: 58% !important;
+  }
+
+  .hotel__seller .gallery .control {
+    top: 50% !important;
+  }
+
+  .recomm .gallery .control {
+    top: 100px !important;
   }
 
   .mcd-menu {
@@ -5564,8 +5580,9 @@ footer form img {
   }
   .sec-prod .prod__review__bl .stars {
     display: flex;
-    width: 100% !important;
+    width: 50% !important;
     margin-bottom: 10px;
+    margin-right: 0 !important;
   }
   .sec-prod .prod__review__bl .review {
     width: 50%;
@@ -5583,7 +5600,9 @@ footer form img {
     margin-bottom: 45px;
   }
   .sec-prod .prod__brand {
-    margin-bottom: 20px;
+    margin-bottom: 0;
+    width: 50%;
+    float: left;
   }
   .sec-prod .sec-prod__gallery {
     width: 100% !important;
