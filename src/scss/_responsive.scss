@@ -957,8 +957,8 @@
       position: absolute !important;
       visibility: hidden;
       width: 100%;
-      top: 85px !important;
-      height: 85vh !important;
+      top: 99% !important;
+      height: calc(100vh - 99%) !important;
       -webkit-border-radius: 0px 40px 0 0px !important;
       border-radius: 0px 40px 0 0px !important;
       overflow: auto;
@@ -1052,6 +1052,7 @@
           top: 65px;
           background-color: #fff;
           z-index: 3;
+          width: 100%;
           a {
             position: relavire;
           }
@@ -1106,6 +1107,7 @@
             top: 0;
             margin-left: 40px;
             padding-top: 0 !important;
+            display: block;
             li {
               padding-left: 35px;
               &:before {
@@ -1144,16 +1146,20 @@
         }
       }
       .left-block__icon.exit {
-        margin-top: 10px;
+        margin-top: 5px;
         height: 32px;
         float: left;
         -webkit-filter: none;
         filter: none;
         opacity: 1;
-        background-position: left;
+        background-position: left top;
         margin-left: 5px;
+        padding-bottom: 60px;
         :before {
           display: none;
+        }
+        a {
+          height: 33px !important;
         }
       }
     }
@@ -1247,10 +1253,12 @@
     .back-to-top {
       right: 30px;
       bottom: 30px;
+      z-index: 1 !important;
     }
     .chat {
       right: 50px;
       bottom: 80px;
+      z-index: 1 !important;
     }
     .popups.app.active {
       position: fixed;
@@ -1375,7 +1383,10 @@
         transition: all 0.2s ease-in-out;
         position: relative;
       }
-    } 
+    }
+    .content.fixed {
+      position: fixed !important;
+    }
     #overlay-button span:before {
       top: -10px;
       visibility: visible;
@@ -2247,6 +2258,10 @@
 
     footer {
       padding: 50px 0 20px 0;
+      &.fixed {
+        background: #F4F8F9;
+        position: fixed;
+      }
       .fl-block {
         display: block;
         .fourd-col {

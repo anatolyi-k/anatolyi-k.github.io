@@ -204,6 +204,8 @@ document.querySelector('#overlay-button').onclick = function () {
   document.querySelector('#smenu-lang').classList.remove('active');
   document.querySelector('#dirlist').classList.remove('active');
   document.querySelector('#left-block').classList.remove('vis');
+  document.querySelector('#maining').classList.toggle('fixed');
+  document.querySelector('footer').classList.toggle('fixed');
 }
 document.querySelector('#smenu-lang__link').onclick = function () {
   document.querySelector('#smenu-lang').classList.toggle('active');
